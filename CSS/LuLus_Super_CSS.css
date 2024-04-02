@@ -3,28 +3,38 @@
 @import url(https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css);
 @import url("https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css");
 
-::input-placeholder, body, button, input, select, textarea {
-    font-family: "Open Sans";
-}
 :root {
   --channelColor: #b370ff;
   --channelColorSec: #ff4120;
   --userColors: #b370ff;
-  --folderBorders: 5px;
+  --mentionBarColor: var(--userColors);
   --expression-picker-aspect-ratio: 1.125 / 1; /* Resize Gif Picker */
-  /* Sepia Trans Theme */
-    --bg-gradient-sepia-1: #73cff4;
-    --bg-gradient-sepia-2: #73cff4, #73cff4, #73cff4, #eeafc0, #fff, #eeafc0, #73cff4;
-  /* Shiggy Cursor */
-  /*--cursor: url('https://schizophrenic.lol/assets/shiggy.cur');*/
+  /* chroma Trans Theme */
+    --bg-gradient-chroma-glow-1: #73cff4;
+    --bg-gradient-chroma-glow-2: #73cff4;
+    --bg-gradient-chroma-glow-3: #73cff4;
+    --bg-gradient-chroma-glow-4: #eeafc0, #fff, #eeafc0;
+    --bg-gradient-chroma-glow-5: #73cff4, #73cff4, #73cff4c0;
+  /* Shiggy Cursor|| uncomment to enable */
+  /* --cursor: url('https://schizophrenic.lol/assets/shiggy.cur'); */
+  --displayUserTags: none; /* inherit = on || none = off */
+  --displayShiggyIcons: inherit; /* inherit = on || none = off */
+  --hideNitroButton: none; /* inherit = on || none = off */
+  --uploadBarBackground: #5f3392;
+  --uploadBarProgress: #b370ff;
 }
-/*
+
 html {
     cursor: var(--cursor), default;
 }
-*/
 
-
+span [class*="username"] {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+div {
+  font-family: "Open Sans", sans-serif;
+}
 
 
 li[class*='selected'] [class*="icon"]{
@@ -40,50 +50,38 @@ li[class*='selected'] [d*="M2 10c0-1.1.9-2 2-2h.5c.28 0"]{
     fill: var(--channelColor) !important; /* Announcement Secondary */
 }
 
-div [id*="message-content"] {
-  font-family: "Open Sans", sans-serif;
-}
-span [class*="username"] {
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-}
-div {
-  font-family: "Open Sans", sans-serif;
-}
-
 /* DISPLAY NAME CHANGE */
 h3[class*="header"] span[role="button"] {
   color: #b370ff;
-  font-family: "Open Sans" sans-serif;
+  font-family: "Open Sans";
   font-size: calc((0.6vw + 1vh) - 1px);
 }
 
 /* Adds @ symbol in front of usernames */
-/*
+
 li[id*="chat-message"] [id*="message-username"]:before {
+  display: var(--displayUserTags);
   content: "@";
-  color: #b370ff; //use var(--VarHere); instead if needed
-  font-size: calc((0.5vw + 1vh) - 10%);
+  color: var(--userColors);
+  font-size: calc((0.6vw + 1vh) - 1px);
 }
-*/
+
 
 div[class*="userPopoutInner"i] [class*="usertext"i] [class*="usertagusername"i]:before{
   color: var(--userColors);
   content: "@";
   font-size: 15px;
 }
-
-li[id*="chat-message"] [id*="message-username"] {
-  color: red;
-}
-
+  
+/*Hide Gift Button*/
 button:has([d*="M-7,10 C-8.104999542236328,10 -9"]) {
-  display: none;
-  /*Hide Gift Button*/
+  display: var(--hideNitroButton);
+
 }
 
+/*Reply Color Bar, use !important to override RoleColorPing*/
 div[class*=message] [class*=mentioned]:before {
-    background-color: #b370ff !important; /*Reply Color Bar, use !important to override RoleColorPing*/
+    background-color: var(--mentionBarColor) !important; 
 }
 
 .mirror_e336b2 {
@@ -97,6 +95,7 @@ div[class^="toolbar"] [class*=icon] [class^=iconContainer]{ /* Make the Search i
   color: var(--interactive-normal);
   transition: ease-in-out .3s;
 }
+
 div[class^="toolbar"] [class*=searchBar]{ /*Fully Hide the search bar*/
   width: 21px;
   height: 24px;
@@ -104,6 +103,7 @@ div[class^="toolbar"] [class*=searchBar]{ /*Fully Hide the search bar*/
   background: none;
   transition: ease-in-out 0.3s!important;
 }
+
 div[class*=toolbar] [class*=searchBar]:hover{ /*Reveal Search Bar on Hover*/
     width: 175px;
   background: var(--background-tertiary);
@@ -114,7 +114,6 @@ div[class*=toolbar] [class*=searchBar]:hover{ /*Reveal Search Bar on Hover*/
 [class^="repliedMessage"] [class*="avatar" i]{
   display: none;
 }
-
 
 /* BETTER FOLDERS */
 div[class*=closedFolderIcon]{
@@ -144,7 +143,6 @@ div[class*="folderIconWrapper" i] [class*=expandedFolderIconWrapper]{
 }
 
 /* AUTO COMPLETE EMOJI ANIMATION */
-
 div[class*=autocompleteInner] [class*=clickable] [class*=base]:hover{
     transition: all 0s;
     transform: scale(1.02);
@@ -166,46 +164,19 @@ div[class*="imageContent"] span[class*="altText"]{
 
 /* background color of the progress bar */
 .progress__4d3b3{
-    background-color: #5f3392 !important;
+    background-color: var(--uploadBarBackground) !important;
 }
 /* the progress bar */
 .progress__4d3b3>.progressBar__00a1a{
-    background-color: #b370ff !important;
+    background-color: var(--uploadBarProgress) !important;
 }
 
-/*
-.name__4eb92, .icon_67ab4{
-  color: rgb(255, 255, 255, 0.2);
-}
-*/
 
+[href="/store"],[href="/shop"]{display:none;} /* hide Shop and Nitro tab in DMs */
 
-nav[class*="privateChannels" i] [data-list-item-id*="nitro"], nav[class*="privateChannels" i] [data-list-item-id*="shop"] {
-  display:none; 
-}
-
-/*SendMessage*/[d^="M6.6 10.02 14"] {
+/*SendMessage old Icon*/
+[d^="M6.6 10.02 14"] {
     d: path("M12.4107 12.7383 3 13.6482.5235 21.5682C.3759 22.0365.5207 22.5483.8934 22.869 1.2646 23.1896 1.792 23.257 2.2335 23.0419L22.8576 13.0548C23.2613 12.8579 23.5172 12.4487 23.5172 12.0001 23.5172 11.5515 23.2611 11.1423 22.8576 10.9454L2.2476.9511C1.806.7359 1.2787.8034.9074 1.1241.5347 1.4447.3899 1.9552.5376 2.4234L3.014 10.3434 12.4064 11.2547C12.7861 11.2926 13.0758 11.6119 13.0758 11.993 13.0758 12.3741 12.7861 12.6933 12.4064 12.7313L12.4107 12.7383Z");
-}
-
-
-.item__183e8:has(.roleRow__66150).focused_dcafb9{
-    background-color: transparent;
-}
-.item__183e8.focused_dcafb9 .roleRow__66150>.roleDot_bab828::before{
-    content: '';
-    width: calc(100% - 6px);
-    background: inherit;
-    border-radius: 2px;
-    position: absolute;
-    left: 0;
-    height: 32px;
-    filter: brightness(.4) opacity(.8);
-    z-index: -1;
-    margin-left: 6px;
-}
-.item__183e8:has(.roleRow__66150)>div{
-    z-index: 1;
 }
 
 /* Custom Emoji Button */
@@ -220,6 +191,7 @@ nav[class*="privateChannels" i] [data-list-item-id*="nitro"], nav[class*="privat
 }
 
 [id*="popout_"]::after, [class*=menu]::after {
+  display: var(--displayShiggyIcons);
     content: "";
     position: absolute;
     top: -50px;
@@ -231,11 +203,12 @@ nav[class*="privateChannels" i] [data-list-item-id*="nitro"], nav[class*="privat
 }
 /* Alternate Shiggy Link: https://media.discordapp.net/stickers/1039992459209490513.png */
 
-.buttons_ce5b56 {
+/* message button tweaks */
+.buttons__7ecff {
     margin: 6px 6px 6px auto !important;
     margin-left: auto;
-    max-width: calc(40px * 6); /* CHANGE HERE: 6 columns when expanded */
-    min-width: calc(40px * 2); /* CHANGE HERE: 2 columns when collapsed */
+    max-width: calc(40px * 7); /* CHANGE HERE: 6 columns when expanded */
+    min-width: calc(40px * 1); /* CHANGE HERE: 2 columns when collapsed */
     width: min-content;
     display: flex;
     gap: 6px 0;
@@ -244,23 +217,23 @@ nav[class*="privateChannels" i] [data-list-item-id*="nitro"], nav[class*="privat
     height: fit-content;
     justify-content: right;
 }
-.buttons_ce5b56 .buttonContainer__8b164,
-.buttons_ce5b56 > .button_afdfd9 {
+.buttons__7ecff .buttonContainer_ff1010,
+.buttons__7ecff > .button__581d0 {
     width: 40px;
 }
-.separator__8424b {
+.separator__666aa {
     margin: 0;
     justify-content: center;
     width: 40px;
 }
-.separator__8424b::before {
+.separator__666aa::before {
     display: none;
 }
-.separator__8424b .innerButton_debeee {
+.separator__666aa .innerButton__9efb8 {
 
     margin: 0;
 }
-.textArea__74543 {
+.textArea_a86690 {
     width: fit-content;
     flex-grow: 1.01;
 }
@@ -279,4 +252,3 @@ nav[class*="privateChannels" i] [data-list-item-id*="nitro"], nav[class*="privat
 [class*="expressionPickerPositionLayer_"] [class*="soundboardContainer_"] [class*="picker_"] {
     height: 100%;
 }
-
