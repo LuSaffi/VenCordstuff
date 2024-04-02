@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css");
-@import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
+@import url(https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css);
+@import url("https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css");
 
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: "Open Sans";
@@ -10,7 +11,19 @@
   --channelColorSec: #ff4120;
   --userColors: #b370ff;
   --folderBorders: 5px;
+  --expression-picker-aspect-ratio: 1.125 / 1; /* Resize Gif Picker */
+  /* Sepia Trans Theme */
+    --bg-gradient-sepia-1: #73cff4;
+    --bg-gradient-sepia-2: #73cff4, #73cff4, #73cff4, #eeafc0, #fff, #eeafc0, #73cff4;
+  /* Shiggy Cursor */
+  /*--cursor: url('https://schizophrenic.lol/assets/shiggy.cur');*/
 }
+/*
+html {
+    cursor: var(--cursor), default;
+}
+*/
+
 li[class*='selected'] [class*="icon"]{
     color: var(--channelColor) !important; /*Default Channels*/
 }
@@ -201,5 +214,66 @@ nav[class*="privateChannels" i] [data-list-item-id*="nitro"], nav[class*="privat
 .sprite__294b3.spriteGreyscale__750f4 {
     mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
     mask-size: 24px;
+}
+
+[id*="popout_"]::after, [class*=menu]::after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://media.discordapp.net/stickers/1217112512374505613.png');
+    background-size: cover;
+}
+/* Alternate Shiggy Link: https://media.discordapp.net/stickers/1039992459209490513.png */
+
+.buttons_ce5b56 {
+    margin: 6px 6px 6px auto !important;
+    margin-left: auto;
+    max-width: calc(40px * 6); /* CHANGE HERE: 6 columns when expanded */
+    min-width: calc(40px * 2); /* CHANGE HERE: 2 columns when collapsed */
+    width: min-content;
+    display: flex;
+    gap: 6px 0;
+    flex-wrap: wrap-reverse;
+    flex-grow: 1;
+    height: fit-content;
+    justify-content: right;
+}
+.buttons_ce5b56 .buttonContainer__8b164,
+.buttons_ce5b56 > .button_afdfd9 {
+    width: 40px;
+}
+.separator__8424b {
+    margin: 0;
+    justify-content: center;
+    width: 40px;
+}
+.separator__8424b::before {
+    display: none;
+}
+.separator__8424b .innerButton_debeee {
+
+    margin: 0;
+}
+.textArea__74543 {
+    width: fit-content;
+    flex-grow: 1.01;
+}
+
+/* Automatically resizing gif picker */
+[class*="expressionPickerPositionLayer_"] [class*="positionContainer_"] {
+    height: calc(100vh - 128px);
+}
+[class*="expressionPickerPositionLayer_"] [class*="drawerSizingWrapper_"] {
+    max-height: 100%;
+    bottom: 0px;
+    height: auto;
+    aspect-ratio: var(--expression-picker-aspect-ratio);
+}
+/* Fixes soundmoji picker which has a hardcoded height */
+[class*="expressionPickerPositionLayer_"] [class*="soundboardContainer_"] [class*="picker_"] {
+    height: 100%;
 }
 
