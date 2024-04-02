@@ -210,7 +210,7 @@ div[class*="imageContent"] span[class*="altText"]{
 .buttons__7ecff {
     margin: 6px 6px 6px auto !important;
     margin-left: auto;
-    max-width: calc(40px * var(--emojiButtons)); /* CHANGE HERE: 6 columns when expanded */
+    max-width: calc(calc(5vw) * var(--emojiButtons)); /* CHANGE HERE: 6 columns when expanded */
     min-width: calc(40px * var(--chatColumns)); /* CHANGE HERE: 2 columns when collapsed */
     width: min-content;
     display: flex;
