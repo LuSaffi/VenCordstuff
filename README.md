@@ -9,6 +9,7 @@
 7. Open Sans Font: Google Corp.
 8. Custom Emoji icon and mask: computing_cat
 9. Vennie popouts: ukrio
-
+10. Sepia trans theme (redone for Chroma Glow): charmfvlz
+11. Shiggy Cursor: imdespair
 
 ReadMe is always in progress, if you know ANYONE I'm missing, contact me on discord @lusaffi , I want to give credit where it is deserved!
