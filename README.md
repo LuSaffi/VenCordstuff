@@ -1,3 +1,14 @@
 # All Credits Below
 
 1. Discord Old Icons : dav154
+2. Alt Text Improvements: saltssaumure
+3. Prettier Search Bar: Skye
+4. Emoji Auto-fill Animation: Lonk
+5. Normalized Forums: syndishanx
+6. Spotify Player Rework: Panniku
+7. Open Sans Font: Google Corp.
+8. Custom Emoji icon and mask: computing_cat
+9. Vennie popouts: ukrio
+
+
+ReadMe is always in progress, if you know ANYONE I'm missing, contact me on discord @lusaffi , I want to give credit where it is deserved!
