@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css");
-@import url("https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css");
+@import url(https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css);
 @import url("https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css");
 
-::-webkit-input-placeholder, body, button, input, select, textarea {
+::input-placeholder, body, button, input, select, textarea {
     font-family: "Open Sans";
 }
 :root {
@@ -23,6 +23,9 @@ html {
     cursor: var(--cursor), default;
 }
 */
+
+
+
 
 li[class*='selected'] [class*="icon"]{
     color: var(--channelColor) !important; /*Default Channels*/
@@ -126,8 +129,8 @@ div[class*="folderIconWrapper" i]:not([style=""]):before, [class*="foldericonwra
     inset: 0;
     margin: auto;
     background-color: inherit;
-    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z'/%3E%3C/svg%3E");
-    -webkit-mask-repeat: no-repeat;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
     filter: brightness(1.5) saturate(1.5);
 }
 
