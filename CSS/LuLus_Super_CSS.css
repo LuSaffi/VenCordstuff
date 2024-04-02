@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+@import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css");
+@import url("https://dablulite.github.io/css-snippets/SpotifyActivityRedesign/import.css");
+
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: "Open Sans";
+}
+:root {
+  --channelColor: #b370ff;
+  --channelColorSec: #ff4120;
+  --userColors: #b370ff;
+  --folderBorders: 5px;
+}
+li[class*='selected'] [class*="icon"]{
+    color: var(--channelColor) !important; /*Default Channels*/
+}
+li[class*='selected'] [d*="M18.91 12.98a5.45 5.45"]{
+    fill: var(--channelColorSec) !important; /*Forum Small*/
+}
+li[class*='selected'] [d*="M18.09 1.63c.4-.7 1.43-.7"]{
+    fill: var(--channelColorSec) !important; /*NSFW Channel Icon*/
+}
+li[class*='selected'] [d*="M2 10c0-1.1.9-2 2-2h.5c.28 0"]{
+    fill: var(--channelColor) !important; /* Announcement Secondary */
+}
+
+div [id*="message-content"] {
+  font-family: "Open Sans", sans-serif;
+}
+span [class*="username"] {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+div {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* DISPLAY NAME CHANGE */
+h3[class*="header"] span[role="button"] {
+  color: #b370ff;
+  font-family: "Open Sans" sans-serif;
+  font-size: calc((0.6vw + 1vh) - 1px);
+}
+
+/* Adds @ symbol in front of usernames */
+/*
+li[id*="chat-message"] [id*="message-username"]:before {
+  content: "@";
+  color: #b370ff; //use var(--VarHere); instead if needed
+  font-size: calc((0.5vw + 1vh) - 10%);
+}
+*/
+
+div[class*="userPopoutInner"i] [class*="usertext"i] [class*="usertagusername"i]:before{
+  color: var(--userColors);
+  content: "@";
+  font-size: 15px;
+}
+
+li[id*="chat-message"] [id*="message-username"] {
+  color: red;
+}
+
+button:has([d*="M-7,10 C-8.104999542236328,10 -9"]) {
+  display: none;
+  /*Hide Gift Button*/
+}
+
+div[class*=message] [class*=mentioned]:before {
+    background-color: #b370ff !important; /*Reply Color Bar, use !important to override RoleColorPing*/
+}
+
+.mirror_e336b2 {
+  transform: unset;
+}
+
+/* PRETTIER SEARCH BAR */
+div[class^="toolbar"] [class*=icon] [class^=iconContainer]{ /* Make the Search icon match the styling of the other icons.*/
+  width: 21px;
+  height: 21px;
+  color: var(--interactive-normal);
+  transition: ease-in-out .3s;
+}
+div[class^="toolbar"] [class*=searchBar]{ /*Fully Hide the search bar*/
+  width: 21px;
+  height: 24px;
+  padding: 0;
+  background: none;
+  transition: ease-in-out 0.3s!important;
+}
+div[class*=toolbar] [class*=searchBar]:hover{ /*Reveal Search Bar on Hover*/
+    width: 175px;
+  background: var(--background-tertiary);
+  border: 1px solid var(--button-outline-primary-border-hover);
+}
+
+/* REMOVE REPLY AVATARS */
+[class^="repliedMessage"] [class*="avatar" i]{
+  display: none;
+}
+
+
+/* BETTER FOLDERS */
+div[class*=closedFolderIcon]{
+  display:none; 
+}
+
+div[class*="folderIconWrapper" i]:not([style=""]):before, [class*="foldericonwrapper" i]:not([style=""]):after{
+  position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    inset: 0;
+    margin: auto;
+    background-color: inherit;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: no-repeat;
+    filter: brightness(1.5) saturate(1.5);
+}
+
+div[class*=wrapper] [class*="expandedFolderBackground" i]{
+ background-color: inherit;
+ filter: brightness(1.5) saturate(1.5);
+}
+
+div[class*="folderIconWrapper" i] [class*=expandedFolderIconWrapper]{
+      transform: none !important;
+}
+
+/* AUTO COMPLETE EMOJI ANIMATION */
+
+div[class*=autocompleteInner] [class*=clickable] [class*=base]:hover{
+    transition: all 0s;
+    transform: scale(1.02);
+  }
+div[class*=autocompleteInner] [class*=base]{ /* animation controls*/
+  transition: all 0.3s;
+}
+
+/* FIX PROFILE OVERFLOW */
+div[class*="userPopoutOverlayBackground"] {
+  max-height: 65vh;
+}
+
+/* FIX MARGINS ON GIFS */
+div[class*="imageContent"] span[class*="altText"]{
+  margin: .25rem 0 -0.15rem;
+  line-height: 17px;
+}
+
+/* background color of the progress bar */
+.progress__4d3b3{
+    background-color: #5f3392 !important;
+}
+/* the progress bar */
+.progress__4d3b3>.progressBar__00a1a{
+    background-color: #b370ff !important;
+}
+
+/*
+.name__4eb92, .icon_67ab4{
+  color: rgb(255, 255, 255, 0.2);
+}
+*/
+
+
+nav[class*="privateChannels" i] [data-list-item-id*="nitro"], nav[class*="privateChannels" i] [data-list-item-id*="shop"] {
+  display:none; 
+}
+
+/*SendMessage*/[d^="M6.6 10.02 14"] {
+    d: path("M12.4107 12.7383 3 13.6482.5235 21.5682C.3759 22.0365.5207 22.5483.8934 22.869 1.2646 23.1896 1.792 23.257 2.2335 23.0419L22.8576 13.0548C23.2613 12.8579 23.5172 12.4487 23.5172 12.0001 23.5172 11.5515 23.2611 11.1423 22.8576 10.9454L2.2476.9511C1.806.7359 1.2787.8034.9074 1.1241.5347 1.4447.3899 1.9552.5376 2.4234L3.014 10.3434 12.4064 11.2547C12.7861 11.2926 13.0758 11.6119 13.0758 11.993 13.0758 12.3741 12.7861 12.6933 12.4064 12.7313L12.4107 12.7383Z");
+}
+
+
+.item__183e8:has(.roleRow__66150).focused_dcafb9{
+    background-color: transparent;
+}
+.item__183e8.focused_dcafb9 .roleRow__66150>.roleDot_bab828::before{
+    content: '';
+    width: calc(100% - 6px);
+    background: inherit;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    height: 32px;
+    filter: brightness(.4) opacity(.8);
+    z-index: -1;
+    margin-left: 6px;
+}
+.item__183e8:has(.roleRow__66150)>div{
+    z-index: 1;
+}
+
+/* Custom Emoji Button */
+.sprite__294b3.spriteColored__9a869 {
+    background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
+    background-size: 24px;
+}
+
+.sprite__294b3.spriteGreyscale__750f4 {
+    mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
+    mask-size: 24px;
+}
+
