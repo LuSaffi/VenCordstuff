@@ -14,7 +14,7 @@
     --bg-gradient-chroma-glow-2: #73cff4;
     --bg-gradient-chroma-glow-3: #73cff4;
     --bg-gradient-chroma-glow-4: #eeafc0, #fff, #eeafc0;
-    --bg-gradient-chroma-glow-5: #73cff4, #73cff4, #73cff4c0;
+    --bg-gradient-chroma-glow-5: #73cff4;
   /* Shiggy Cursor|| uncomment to enable */
   /* --cursor: url('https://schizophrenic.lol/assets/shiggy.cur'); */
   --displayUserTags: none; /* inherit = on || none = off */
