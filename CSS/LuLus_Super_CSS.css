@@ -166,12 +166,12 @@ div[class*="imageContent"] span[class*="altText"]{
 }
 
 /* background color of the progress bar */
-.progress__4d3b3{
-    background-color: var(--uploadBarBackground) !important;
+[class*='progress_' i]{
+  background-color: var(--uploadBarBackground) !important;
 }
 /* the progress bar */
-.progress__4d3b3>.progressBar__00a1a{
-    background-color: var(--uploadBarProgress) !important;
+[class*='progressBar' i]{
+  background-color: var(--uploadBarProgress) !important;
 }
 
 
