@@ -19,12 +19,12 @@
   /* --cursor: url('https://schizophrenic.lol/assets/shiggy.cur'); */
   --displayUserTags: none; /* inherit = on || none = off */
   --displayShiggyIcons: inherit; /* inherit = on || none = off */
-  --hideNitroButton: none; /* inherit = on || none = off */
+  --showNitroButton: none; /* inherit = on || none = off */
   --uploadBarBackground: #5f3392;
   --uploadBarProgress: #b370ff;
-  
   --emojiButtons: 6;
   --chatColumns: 2;
+   --showWelcomeButtons: none; /* inherit = on || none = off */
 }
 
 html {
@@ -78,7 +78,7 @@ div[class*="userPopoutInner"i] [class*="usertext"i] [class*="usertagusername"i]:
   
 /*Hide Gift Button*/
 button:has([d*="M-7,10 C-8.104999542236328,10 -9"]) {
-  display: var(--hideNitroButton);
+  display: var(--showNitroButton);
 
 }
 
@@ -255,3 +255,4 @@ div[class*="imageContent"] span[class*="altText"]{
 [class*="expressionPickerPositionLayer_"] [class*="soundboardContainer_"] [class*="picker_"] {
     height: 100%;
 }
+[class*=welcomeCTA_] {display: var(--showWelcomeButtons)}
