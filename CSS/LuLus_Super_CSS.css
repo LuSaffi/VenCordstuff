@@ -25,6 +25,9 @@
   --emojiButtons: 6;
   --chatColumns: 2;
   --showWelcomeButtons: none; /* inherit = on || none = off */
+  --customEmojiIconURL: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
+  --customEmojiIconMask: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
+  /* CHANGE CUSTOM EMOJI FROM .gif TO .png TO MAKE STATIC ELEMENTS || SIZE SHOULD BE 128 */
 }
 
 html {
@@ -114,7 +117,7 @@ div[class*=toolbar] [class*=searchBar]:hover{ /*Reveal Search Bar on Hover*/
 }
 
 /* REMOVE REPLY AVATARS */
-[class^="repliedMessage"] [class*="avatar" i]{
+[class*="repliedMessage"] [class*="avatar" i]{
   display: none;
 }
 
@@ -183,14 +186,13 @@ div[class*="imageContent"] span[class*="altText"]{
 }
 
 /* Custom Emoji Button */
-.sprite__294b3.spriteColored__9a869 {
-    background-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
-    background-size: 24px;
+[class*=emojiButton] [class*=spriteColored]{
+  background-image: var(--customEmojiIconURL);
+  background-size: 24px;
 }
-
-.sprite__294b3.spriteGreyscale__750f4 {
-    mask-image: url(https://cdn.discordapp.com/emojis/1024751291504791654.png?size=128&quality=lossless);
-    mask-size: 24px;
+[class*=emojiButton] [class*=spriteGreyscale]{
+  mask-image: var(--customEmojiIconMask);
+  mask-size: 24px;
 }
 
 [id*="popout_"]::after, [class*=menu]::after {
