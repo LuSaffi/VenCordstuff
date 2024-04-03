@@ -11,9 +11,9 @@
   --expression-picker-aspect-ratio: 1.125 / 1; /* Resize Gif Picker */
   /* chroma Trans Theme */
     --bg-gradient-chroma-glow-1: #73cff4;
-    --bg-gradient-chroma-glow-2: #73cff4;
+    --bg-gradient-chroma-glow-2: #eeafc0, #fff, #eeafc0;
     --bg-gradient-chroma-glow-3: #73cff4;
-    --bg-gradient-chroma-glow-4: #eeafc0, #fff, #eeafc0;
+    --bg-gradient-chroma-glow-4: #73cff4;
     --bg-gradient-chroma-glow-5: #73cff4;
   /* Shiggy Cursor|| uncomment to enable */
   /* --cursor: url('https://schizophrenic.lol/assets/shiggy.cur'); */
@@ -24,7 +24,7 @@
   --uploadBarProgress: #b370ff;
   --emojiButtons: 6;
   --chatColumns: 2;
-   --showWelcomeButtons: none; /* inherit = on || none = off */
+  --showWelcomeButtons: none; /* inherit = on || none = off */
 }
 
 html {
