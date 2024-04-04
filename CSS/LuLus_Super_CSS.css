@@ -121,32 +121,7 @@ div[class*=toolbar] [class*=searchBar]:hover{ /*Reveal Search Bar on Hover*/
   display: none;
 }
 
-/* BETTER FOLDERS */
-div[class*=closedFolderIcon]{
-  display:none; 
-}
 
-div[class*="folderIconWrapper" i]:not([style=""]):before, [class*="foldericonwrapper" i]:not([style=""]):after{
-  position: absolute;
-    content: "";
-    width: 24px;
-    height: 24px;
-    inset: 0;
-    margin: auto;
-    background-color: inherit;
-    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z'/%3E%3C/svg%3E");
-    mask-repeat: no-repeat;
-    filter: brightness(1.5) saturate(1.5);
-}
-
-div[class*=wrapper] [class*="expandedFolderBackground" i]{
- background-color: inherit;
- filter: brightness(1.5) saturate(1.5);
-}
-
-div[class*="folderIconWrapper" i] [class*=expandedFolderIconWrapper]{
-      transform: none !important;
-}
 
 /* AUTO COMPLETE EMOJI ANIMATION */
 div[class*=autocompleteInner] [class*=clickable] [class*=base]:hover{
