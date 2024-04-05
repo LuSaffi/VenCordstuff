@@ -228,3 +228,12 @@ div[class*="imageContent"] span[class*="altText"]{
     height: 100%;
 }
 [class*=welcomeCTA_] {display: var(--showWelcomeButtons)}
+
+
+main[class*=chatContent]{
+    container-type: inline-size;
+}
+
+[class*=chatContent] [class*=buttons] {
+      max-width: 500px;
+}
