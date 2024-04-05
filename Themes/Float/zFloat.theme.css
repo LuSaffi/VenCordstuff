@@ -10,16 +10,16 @@
 */
 
 /* Addons */
-@import url(https://github.com/LuSaffi/VenCordstuff/blob/main/Themes/Float/bdAddonMini.css);
+@import url(https://raw.githubusercontent.com/LuSaffi/VenCordstuff/main/Themes/Float/bdAddonMini.css);
 
 /* Warning to Remove Minimum Size */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/addon/RemoveMinimumSize.css) (width: 940px);
+@import url(https://raw.githubusercontent.com/LuSaffi/VenCordstuff/main/Themes/Float/RemoveMinimumSize.css) (width: 940px);
 
 /* Source */
-@import url(https://maendisease.github.io/BetterDiscordStuff/Themes/Float/Float.css) (max-width: 940px);
+@import url(https://raw.githubusercontent.com/LuSaffi/VenCordstuff/main/Themes/Float/FloatImport.css) (max-width: 940px);
 
 /* If your theme has custom settings icons, delete or comment this line */
-@import url(https://github.com/LuSaffi/VenCordstuff/blob/main/Themes/Float/SettingsIcons.css) (max-width: 940px);
+@import url(https://raw.githubusercontent.com/LuSaffi/VenCordstuff/main/Themes/Float/SettingsIcons.css) (max-width: 940px);
 
 :root {
     /* Guildlist */
