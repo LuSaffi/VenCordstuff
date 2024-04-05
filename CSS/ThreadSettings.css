@@ -1,0 +1,26 @@
+/* Displays settings as a thread-like overlay on right side of main window */
+:root{
+    --mousePointerEvents: auto; /* auto = Vencord Fix | none = BetterDiscord Fix */
+}
+[class*=baseLayer].stop-animations {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}
+
+[class*=layer_]:not([class*=baseLayer_]) {
+    background: transparent;
+    pointer-events: var(--mousePointerEvents);
+    align-items: flex-end;
+}
+
+[class*=standardSidebar i]{
+  flex-direction: row-reverse;
+    left: unset;
+    pointer-events: auto;
+    box-shadow: var(--elevation-high);
+}
+
+
+div[class*=standardSideBarView i], [class*=sideBarRegion i], [class*=contentRegion] {
+    flex: 0 0 auto;
+}
