@@ -1,7 +1,10 @@
 /* Displays settings as a thread-like overlay on right side of main window */
+/*
 :root{
     --mousePointerEvents: auto; /* auto = Vencord Fix | none = BetterDiscord Fix */
+    /*
 }
+
 [class*=baseLayer].stop-animations {
     opacity: 1 !important;
     transform: scale(1) !important;
@@ -24,3 +27,4 @@
 div[class*=standardSideBarView i], [class*=sideBarRegion i], [class*=contentRegion] {
     flex: 0 0 auto;
 }
+*/
