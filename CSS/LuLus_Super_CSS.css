@@ -237,3 +237,21 @@ main[class*=chatContent]{
 [class*=chatContent] [class*=buttons] {
       max-width: 500px;
 }
+
+/* Spoiler Blur */
+[class*=spoilerMarkdownContent i]{
+  background-color: transparent;
+}
+
+[class*=obscuredTextContentInner]{
+  color: var(--text-3);
+}
+
+[class*=obscuredTextContentInner i] code, [class*=obscuredTextContentInner i] span{
+    opacity: unset;
+    -webkit-transition: none;
+    transition: none;
+}
+[class*=hidden] [class*=obscuredTextContentInner i] span{
+  filter: blur(4px);
+}
