@@ -60,7 +60,7 @@ li[class*='selected'] [d*="M2 10c0-1.1.9-2 2-2h.5c.28 0"]{
 h3[class*="header"] span[role="button"] {
   color: #b370ff;
   font-family: "Open Sans";
-  font-size: calc((0.6vw + 1vh) - 1px);
+  font-size: calc((0.4vw + vh) - 1px);
 }
 
 /* Adds @ symbol in front of usernames */
@@ -69,7 +69,7 @@ li[id*="chat-message"] [id*="message-username"]:before {
   display: var(--displayUserTags);
   content: "@";
   color: var(--userColors);
-  font-size: calc((0.6vw + 1vh) - 1px);
+  font-size: calc((0.3vw + 1vh) - 1px);
 }
 
 
