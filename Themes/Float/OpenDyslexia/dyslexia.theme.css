@@ -1,0 +1,22 @@
+/**
+ * @name Dyslexia
+ * @author Tropical & Qwerasd & LuSaffi
+ * @version 1.0
+ * @description A simple discord theme which makes the app more accommodating to people with dyslexia.
+ * @source https://github.com/DiscordStyles/discord-dyslexia/
+ */
+
+
+@import url(https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OPENDYSLEXIC-REGULAR.OTF);
+@import url(https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OPENDYSLEXIC-ITALIC.OTF);
+@import url(https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OPENDYSLEXIC-BOLDITALIC.OTF);
+@import url(https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OPENDYSLEXIC-BOLD.OTF);
+
+span [class*="username"] {
+    font-family: "OpenDyslexic";
+    font-weight: bold;
+}
+
+div {
+  font-family: "OpenDyslexic";
+}
