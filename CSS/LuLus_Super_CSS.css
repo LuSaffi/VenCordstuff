@@ -258,24 +258,8 @@ main[class*=chatContent]{
   filter: blur(4px);
 }
 
-/* Spoiler Blur */
-[class*=spoilerMarkdownContent i]{
-  background-color: transparent;
-}
 
-[class*=obscuredTextContentInner]{
-  color: var(--text-3);
-}
-
-[class*=obscuredTextContentInner i] code, [class*=obscuredTextContentInner i] span{
-    opacity: unset;
-    -webkit-transition: none;
-    transition: none;
-}
-[class*=hidden] [class*=obscuredTextContentInner i] span{
-  filter: blur(var(--contentBlurSize));
-}
-*/ Add Server Button */
+/* Add Server Button */
 [class*=tutorialContainer__6 i]{
     position: fixed;
     bottom: 0px;
