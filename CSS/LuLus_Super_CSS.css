@@ -275,11 +275,11 @@ main[class*=chatContent]{
 [class*=hidden] [class*=obscuredTextContentInner i] span{
   filter: blur(var(--contentBlurSize));
 }
-
+*/ Add Server Button */
 [class*=tutorialContainer__6 i]{
     position: fixed;
     bottom: 0px;
-  z-index: 1
+	z-index: 1
 
 }
 
