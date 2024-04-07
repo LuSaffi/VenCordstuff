@@ -25,6 +25,7 @@
   --emojiButtons: 6;
   --chatColumns: 2;
   --showWelcomeButtons: none; /* inherit = on || none = off */
+  --showNewMemberIcon: none; /* inherit = on || none = off */
   --customEmojiIconURL: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
   --customEmojiIconMask: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
   /* CHANGE CUSTOM EMOJI FROM .gif TO .png TO MAKE STATIC ELEMENTS || SIZE SHOULD BE 128 */
@@ -273,4 +274,25 @@ main[class*=chatContent]{
 }
 [class*=hidden] [class*=obscuredTextContentInner i] span{
   filter: blur(var(--contentBlurSize));
+}
+
+[class*=tutorialContainer__6 i]{
+    position: fixed;
+    bottom: 0px;
+  z-index: 1
+
+}
+
+[class*=tutorialContainer__6 i] [class*=svg]{
+  background-color: #202020;
+  opacity: 90%;
+  border-radius: 48px;
+}
+.scroller_de945b{
+  padding: 50px
+}
+
+
+[class*=newMemberBadge i]{
+  display: var(--showNewMemberIcon);
 }
