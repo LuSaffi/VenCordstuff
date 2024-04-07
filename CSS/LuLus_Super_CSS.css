@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css");
 @import url("https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css");
 @import url("https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css");
@@ -34,14 +33,6 @@
 
 html {
     cursor: var(--cursor), default;
-}
-
-span [class*="username"] {
-    font-family: "Open Sans", sans-serif;
-    font-weight: bold;
-}
-div {
-  font-family: "Open Sans", sans-serif;
 }
 
 
@@ -263,7 +254,7 @@ main[class*=chatContent]{
 [class*=tutorialContainer__6 i]{
     position: fixed;
     bottom: 0px;
-	z-index: 1
+	z-index: 2;
 
 }
 
