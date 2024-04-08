@@ -13,6 +13,7 @@
 11. Shiggy Cursor: imdespair
 12. Popout Profile Overflow Fix: vending.machine
 13. Pretty Folder Icons: dabluelite
+14. Fluent Icons: Gibbu
 
 
 ReadMe is always in progress, if you know ANYONE I'm missing, contact me on discord @lusaffi , I want to give credit where it is deserved!
