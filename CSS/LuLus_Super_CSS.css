@@ -89,25 +89,29 @@ div[class*=message] [class*=mentioned]:before {
 }
 
 /* PRETTIER SEARCH BAR */
-div[class^="toolbar"] [class*=icon] [class^=iconContainer]{ /* Make the Search icon match the styling of the other icons.*/
-  width: 21px;
-  height: 21px;
+.search_ac353c:not(.open_d3ab4e) > .searchBar__5a20a {
+  width: 22px;
+  background: transparent;
+}
+
+.searchBarComponent__8f95f{
+  background: transparent;
+}
+
+.search_ac353c:not(.open_d3ab4e) .iconLayout__9d9a4 {
+  cursor: pointer;
+}
+
+.search_ac353c:not(.open_d3ab4e) .iconContainer__9f124 {
+  transform: scale(1.4);
+}
+
+.search_ac353c:not(.open_d3ab4e) .icon__5c8c7 {
   color: var(--interactive-normal);
-  transition: ease-in-out .3s;
 }
 
-div[class^="toolbar"] [class*=searchBar]{ /*Fully Hide the search bar*/
-  width: 21px;
-  height: 24px;
-  padding: 0;
-  background: none;
-  transition: ease-in-out 0.3s!important;
-}
-
-div[class*=toolbar] [class*=searchBar]:hover{ /*Reveal Search Bar on Hover*/
-    width: 175px;
-  background: var(--background-tertiary);
-  border: 1px solid var(--button-outline-primary-border-hover);
+.search_ac353c:not(.open_d3ab4e):hover .icon__5c8c7 {
+  color: var(--interactive-active);
 }
 
 /* REMOVE REPLY AVATARS */
