@@ -1,22 +1,75 @@
 /**
  * @name Dyslexia
- * @author Tropical & Qwerasd & LuSaffi
- * @version 1.0
+ * @author Tropical, Qwerasd & LuSaffi
+ * @version 2.0.24
  * @description A simple discord theme which makes the app more accommodating to people with dyslexia.
  * @source https://github.com/DiscordStyles/discord-dyslexia/
  */
 
 
-@import url(https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OPENDYSLEXIC-REGULAR.OTF);
-@import url(https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OPENDYSLEXIC-ITALIC.OTF);
-@import url(https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OPENDYSLEXIC-BOLDITALIC.OTF);
-@import url(https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OPENDYSLEXIC-BOLD.OTF);
+/* Import OpenDyslexic */
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Regular.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Italic.woff');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-Bold.woff');
+    font-weight: bold;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('https://discordstyles.github.io/discord-dyslexia/src/font/OpenDyslexic-BoldItalic.woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* ----------------------------------------------------------------------- */
+
+/* Backwards Compatibility */
+
+:root {
+    --line-spacing: var(--message-line-spacing);
+}
+
+/* Apply styles */
 
 span [class*="username"] {
-    font-family: "OpenDyslexic";
+    font-family: 'OpenDyslexic', 'Whitney', sans-serif !important;
     font-weight: bold;
+    word-spacing: var(--word-spacing, initial);
+    letter-spacing: var(--letter-spacing, initial);
+    font-size: var(--usernameSize);
 }
 
 div {
-  font-family: "OpenDyslexic";
+    font-family: 'OpenDyslexic', 'Whitney', sans-serif !important;
+    word-spacing: var(--word-spacing, initial);
+    letter-spacing: var(--letter-spacing, initial);
+    font-size: var(--allTextSize);
+}
+/* Adjust formatted text line-height */
+
+[class*="messageContent-" i] {
+    line-height: var(--message-line-spacing, initial) !important;
+}
+
+/* Scale up timestamps & "Edited" text */
+
+[class*="group-spacing" i] [class*="timestamp"],
+[class*="messageContent-" i] time {
+    font-size: .9rem;
 }
