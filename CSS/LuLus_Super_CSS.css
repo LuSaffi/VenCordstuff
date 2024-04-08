@@ -273,3 +273,21 @@ main[class*=chatContent]{
 [class*=newMemberBadge i]{
   display: var(--showNewMemberIcon);
 }
+
+
+/* Settings Hide Icon */
+.panels__58331>.container_debb33 .flex_f18b02>:not(:last-child) {
+  opacity: 0;
+  width: 0;
+  transition: all 0.3s;
+}
+
+.panels__58331>.container_debb33 .flex_f18b02{
+  margin-left: auto;
+}
+
+.panels__58331>.container_debb33:hover .flex_f18b02>:not(:last-child) {
+  opacity: 1;
+  width: 28px;
+}
+
