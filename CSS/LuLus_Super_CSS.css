@@ -7,6 +7,8 @@
   --channelColor: #b370ff;
   --channelColorSec: #ff4120;
   --userColors: #b370ff;
+  --uploadBarBackground: #5f3392;
+  --uploadBarProgress: #b370ff;
   --mentionBarColor: var(--userColors);
   --expression-picker-aspect-ratio: 1.125 / 1; /* Resize Gif Picker */
   /* chroma Trans Theme */
@@ -15,20 +17,22 @@
     --bg-gradient-chroma-glow-3: #73cff4;
     --bg-gradient-chroma-glow-4: #73cff4;
     --bg-gradient-chroma-glow-5: #73cff4;
-  /* Shiggy Cursor|| uncomment to enable */
-  /* --cursor: url('https://schizophrenic.lol/assets/shiggy.cur'); */
+
+  /* Display Changes */
   --displayUserTags: none; /* inherit = on || none = off */
   --displayShiggyIcons: inherit; /* inherit = on || none = off */
   --showNitroButton: none; /* inherit = on || none = off */
-  --uploadBarBackground: #5f3392;
-  --uploadBarProgress: #b370ff;
   --emojiButtons: 6;
   --chatColumns: 2;
   --showWelcomeButtons: none; /* inherit = on || none = off */
   --showNewMemberIcon: none; /* inherit = on || none = off */
+  --showInboxButton: none;
+  /* Icon Tweaks */
   --customEmojiIconURL: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
   --customEmojiIconMask: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
-  /* CHANGE CUSTOM EMOJI FROM .gif TO .png TO MAKE STATIC ELEMENTS || SIZE SHOULD BE 128 */
+  /* CHANGE CUSTOM EMOJI FROM .gif TO .png TO MAKE STATIC ELEMENTS */
+    /* Shiggy Cursor|| uncomment to enable */
+  /* --cursor: url('https://schizophrenic.lol/assets/shiggy.cur'); */
     --contentBlurSize: 3px;
 }
 
@@ -36,6 +40,14 @@ html {
     cursor: var(--cursor), default;
 }
 
+/* Using an installed font */
+span [class*="username"] {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+* {
+font-family: "Open Sans";
+}
 
 li[class*='selected'] [class*="icon"]{
     color: var(--channelColor) !important; /*Default Channels*/
@@ -274,3 +286,6 @@ main[class*=chatContent]{
   width: 28px;
 }
 
+[aria-label="Inbox" i]{
+  display: var(--showInboxButton);
+}
