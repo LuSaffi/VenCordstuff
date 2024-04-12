@@ -48,25 +48,26 @@ font-family: "Open Sans";
 }
 
 li[class*='selected'] [class*="icon"]{
-    color: var(--channelColor) !important; /*Default Channels*/
+    color: var(--channelColorSec) !important; /*Default Channels*/
 }
 li[class*='selected'] [d*="M18.91 12.98a5.45 5.45"]{
-    fill: var(--channelColorSec) !important; /*Forum Small*/
+    fill: var(--channelColor) !important; /*Forum Small*/
 }
 li[class*='selected'] [d*="M18.09 1.63c.4-.7 1.43-.7"]{
-    fill: var(--channelColorSec) !important; /*NSFW Channel Icon*/
+    fill: var(--channelColor) !important; /*NSFW Channel Icon*/
 }
 li[class*='selected'] [d*="M2 10c0-1.1.9-2 2-2h.5c.28 0"]{
-    fill: var(--channelColor) !important; /* Announcement Secondary */
+    fill: var(--channelColorSec) !important; /* Announcement Secondary */
 }
 li[class*='selected'] [d*="M16 4h.5v-.5a2.5 2.5 0"]{
-  fill: var(--channelColorSec) !important; /* Locked Channels */
+  fill: var(--channelColor) !important; /* Locked Channels */
 }
 li[class*='selected'] [d*="M14.8 3.34a.48.48 0 0 0-.24-.69A9.94"]{
-  fill: var(--channelColor) !important; /* NSFW Forums || can't due small due to limitations*/
+  fill: var(--channelColorSec) !important; /* NSFW Forums || can't do small due to limitations*/
 }
 li[class*='selected'] [d*="M13.58 3.23c.24-.33.16-.86-.24-.96C12.59 2.1"]{
-  fill: var(--channelColor) !important; /* Locked Forums */
+  fill: var(--channelColorSec) !important; /* Locked Forums */
+  container: ChannelMains;
 }
 
 /* DISPLAY NAME CHANGE */
