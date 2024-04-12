@@ -65,7 +65,9 @@ li[class*='selected'] [d*="M16 4h.5v-.5a2.5 2.5 0"]{
 li[class*='selected'] [d*="M14.8 3.34a.48.48 0 0 0-.24-.69A9.94"]{
   fill: var(--channelColor) !important; /* NSFW Forums || can't due small due to limitations*/
 }
-
+li[class*='selected'] [d*="M13.58 3.23c.24-.33.16-.86-.24-.96C12.59 2.1"]{
+  fill: var(--channelColor) !important; /* Locked Forums */
+}
 
 /* DISPLAY NAME CHANGE */
 h3[class*="header"] span[role="button"] {
