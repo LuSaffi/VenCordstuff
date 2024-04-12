@@ -188,41 +188,6 @@ div[class*="imageContent"] span[class*="altText"]{
 }
 /* Alternate Shiggy Link: https://media.discordapp.net/stickers/1039992459209490513.png */
 
-/* message button tweaks */
-.buttons__7ecff {
-    margin: 6px 6px 6px auto !important;
-    margin-left: auto;
-    max-width: calc(calc(5vw) * var(--emojiButtons)); /* CHANGE HERE: 6 columns when expanded */
-    min-width: calc(40px * var(--chatColumns)); /* CHANGE HERE: 2 columns when collapsed */
-    width: min-content;
-    display: flex;
-    gap: 6px 0;
-    flex-wrap: wrap-reverse;
-    flex-grow: 1;
-    height: fit-content;
-    justify-content: right;
-}
-.buttons__7ecff .buttonContainer_ff1010,
-.buttons__7ecff > .button__581d0 {
-    width: 40px;
-}
-.separator__666aa {
-    margin: 0;
-    justify-content: center;
-    width: 40px;
-}
-.separator__666aa::before {
-    display: none;
-}
-.separator__666aa .innerButton__9efb8 {
-
-    margin: 0;
-}
-.textArea_a86690 {
-    width: fit-content;
-    flex-grow: 1.01;
-}
-
 /* Automatically resizing gif picker */
 [class*="expressionPickerPositionLayer_"] [class*="positionContainer_"] {
     height: calc(100vh - 128px);
@@ -237,8 +202,8 @@ div[class*="imageContent"] span[class*="altText"]{
 [class*="expressionPickerPositionLayer_"] [class*="soundboardContainer_"] [class*="picker_"] {
     height: 100%;
 }
-[class*=welcomeCTA_] {display: var(--showWelcomeButtons)}
 
+[class*=welcomeCTA_] {display: var(--showWelcomeButtons)}
 
 main[class*=chatContent]{
     container-type: inline-size;

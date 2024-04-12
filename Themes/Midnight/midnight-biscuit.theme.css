@@ -31,9 +31,9 @@
 	/* accent colors */
 	--accent-1: var(--channelColor); /* links */
 	--accent-2: hsl(268, 20%, 60%); /* general unread/mention elements */
-	--accent-3: hsl(268, 20%, 50%); /* accent buttons */
-	--accent-4: hsl(268, 20%, 39%); /* accent buttons when hovered */
-	--accent-5: hsl(268, 20%, 34%); /* accent buttons when clicked */
+	  --accent-3: #73cff4; /* accent buttons */
+	  --accent-4: hsl(268, 20%, 39%); /* accent buttons when hovered */
+	  --accent-5: hsl(268, 20%, 34%); /* accent buttons when clicked */
 	--mention: hsla(268, 20%, 39%, 0.1); /* mentions & mention messages */
 	--mention-hover: hsla(268, 20%, 39%, 0.05); /* mentions & mention messages when hovered */
 
@@ -41,13 +41,13 @@
 	--text-0: white; /* text on colored elements */
 	--text-1: var(--channelColor); /* other normally white text */
 	--text-2: hsl(220, 25%, 70%); /* headings and important text */
-	--text-3: hsl(0, 0%, 81%); /* normal text */
+	--text-3: var(--channelColor); /* normal text */
 	--text-4: var(--channelColor); /* icon buttons and channels */
 	--text-5: var(--channelColorSec); /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: hsl(0, 12%, 40%); /* dark buttons when clicked */
-	--bg-2: hsl(0, 12%, 24%); /* dark buttons */
+	--bg-1: #eeafc05e; /* dark buttons when clicked */
+	--bg-2: #73cff4; /* dark buttons */
 	--bg-3: hsl(0, 11%, 16%); /* spacing, secondary elements */
 	--bg-4: hsl(0, 11%, 9%); /* main background color */
 	--hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
