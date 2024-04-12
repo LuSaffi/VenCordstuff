@@ -1,7 +1,7 @@
 @import url("https://syndishanx.github.io/Discord-Dark/Imports/NormalizedForums.css");
 @import url("https://raw.githubusercontent.com/Panniku/vc-snippets/main/BetterSpotifyPlayer.css");
 @import url("https://minidiscordthemes.github.io/Snippets/AltTextImprovements/main.css");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans");
 
 :root {
   --channelColor: #b370ff;
@@ -22,8 +22,6 @@
   --displayUserTags: none; /* inherit = on || none = off */
   --displayShiggyIcons: inherit; /* inherit = on || none = off */
   --showNitroButton: none; /* inherit = on || none = off */
-  --emojiButtons: 6;
-  --chatColumns: 2;
   --showWelcomeButtons: none; /* inherit = on || none = off */
   --showNewMemberIcon: none; /* inherit = on || none = off */
   --showInboxButton: none;
@@ -61,6 +59,11 @@ li[class*='selected'] [d*="M18.09 1.63c.4-.7 1.43-.7"]{
 li[class*='selected'] [d*="M2 10c0-1.1.9-2 2-2h.5c.28 0"]{
     fill: var(--channelColor) !important; /* Announcement Secondary */
 }
+li[class*='selected'] [d*="M16 4h.5v-.5a2.5 2.5 0"]{
+  fill: var(--channelColorSec) !important; /* Locked Channels */
+}
+
+
 
 /* DISPLAY NAME CHANGE */
 h3[class*="header"] span[role="button"] {
