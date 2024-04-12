@@ -63,7 +63,7 @@ li[class*='selected'] [d*="M16 4h.5v-.5a2.5 2.5 0"]{
   fill: var(--channelColorSec) !important; /* Locked Channels */
 }
 li[class*='selected'] [d*="M14.8 3.34a.48.48 0 0 0-.24-.69A9.94"]{
-  fill: var(--channelColor) !important; /* NSFW Forums */
+  fill: var(--channelColor) !important; /* NSFW Forums || can't due small due to limitations*/
 }
 
 
