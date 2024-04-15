@@ -39,12 +39,13 @@ html {
 }
 
 /* Using an installed font */
-span [class*="username"] {
+div {
   font-family: "Open Sans";
-  font-weight: bold;
 }
-* {
-font-family: "Open Sans";
+
+[class*="username"], [class*=header] {
+    font-family: "Open Sans";
+    font-weight: bolder;
 }
 
 li[class*='selected'] [class*="icon"]{
@@ -73,7 +74,6 @@ li[class*='selected'] [d*="M13.58 3.23c.24-.33.16-.86-.24-.96C12.59 2.1"]{
 /* DISPLAY NAME CHANGE */
 h3[class*="header"] span[role="button"] {
   color: #b370ff;
-  font-family: "Open Sans";
   font-size: calc((0.4vw + 60%) - 1px);
 }
 
