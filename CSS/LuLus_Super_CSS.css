@@ -135,7 +135,7 @@ div[class*=message] [class*=mentioned]:before {
 }
 
 /* REMOVE REPLY USERNAME */
-[class*=repliedMessage][class*=username]{
+[class*=repliedMessage] [class*=username]{
   display: none;
 }
 
