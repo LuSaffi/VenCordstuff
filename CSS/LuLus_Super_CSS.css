@@ -29,13 +29,8 @@
   --customEmojiIconURL: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
   --customEmojiIconMask: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
   /* CHANGE CUSTOM EMOJI FROM .gif TO .png TO MAKE STATIC ELEMENTS */
-    /* Shiggy Cursor|| uncomment to enable */
-  /* --cursor: url('https://schizophrenic.lol/assets/shiggy.cur'); */
     --contentBlurSize: 3px;
-}
-
-html {
-    cursor: var(--cursor), default;
+    --shiggyPopoutIcons: url(https://media.discordapp.net/stickers/1217112512374505613.png)
 }
 
 /* Using an installed font */
@@ -73,7 +68,7 @@ li[class*='selected'] [d*="M13.58 3.23c.24-.33.16-.86-.24-.96C12.59 2.1"]{
 
 /* DISPLAY NAME CHANGE */
 h3[class*="header"] span[role="button"] {
-  color: #b370ff;
+  color: var(--userColors);
   font-size: calc((0.4vw + 60%) - 1px);
 }
 
@@ -190,7 +185,7 @@ div[class*="imageContent"] span[class*="altText"]{
     right: 0;
     width: 50px;
     height: 50px;
-    background-image: url('https://media.discordapp.net/stickers/1217112512374505613.png');
+    background-image: var(--shiggyPopoutIcons);
     background-size: cover;
 }
 /* Alternate Shiggy Link: https://media.discordapp.net/stickers/1039992459209490513.png */
