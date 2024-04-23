@@ -692,9 +692,9 @@ button.button__581d0 /* small buttons */,
 	width: 65%;
 	height: 65%;
 	background: var(--text-4);
-	-webkit-mask-image: var(--moon-icon-url);
-	-webkit-mask-size: var(--moon-icon-size);
-	-webkit-mask-repeat: none;
+	mask-image: var(--moon-icon-url);
+	mask-size: var(--moon-icon-size);
+	mask-repeat: none;
 }
 .wrapper__8436d:hover .childWrapper_a6ce15::before {
 	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
