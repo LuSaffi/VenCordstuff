@@ -692,7 +692,7 @@ button.button__581d0 /* small buttons */,
 	width: 65%;
 	height: 65%;
 	background: var(--text-4);
-	mask-image: var(--moon-icon-url);
+	mask-image: var(--moon-icon-url) center/contain no-repeat;
 	mask-size: var(--moon-icon-size);
 	mask-repeat: none;
 }

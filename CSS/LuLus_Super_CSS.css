@@ -91,7 +91,6 @@ div[class*="userPopoutInner"i] [class*="usertext"i] [class*="usertagusername"i]:
 /*Hide Gift Button*/
 button:has([d*="M-7,10 C-8.104999542236328,10 -9"]) {
   display: var(--showNitroButton);
-
 }
 
 /*Reply Color Bar, use !important to override RoleColorPing*/
