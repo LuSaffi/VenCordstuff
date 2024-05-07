@@ -198,7 +198,7 @@ div[class*="imageContent"] span[class*="altText"]{
 [class*="expressionPickerPositionLayer_"] [class*="soundboardContainer_"] [class*="picker_"] {
     height: 100%;
 }
-
+/* Welcome User Button */
 [class*=welcomeCTA_] {display: var(--showWelcomeButtons)}
 
 main[class*=chatContent]{
@@ -246,7 +246,11 @@ main[class*=chatContent]{
   opacity: 1;
   width: 28px;
 }
-
+/* Hide Inbox */
 [aria-label="Inbox" i]{
   display: var(--showInboxButton);
+}
+/* Remove VC Icons */
+[class*=iconGroup]:has([class*=hangStatusIcon], svg>path:not([d*='m2.7 22.7 20-20a1'], [d*='M22.7 2.7a1 1']), [class*=iconGroup] [class*=gameIcon]),[class*=layerContainer] [class*=popout]:has([class*=text-xs-medium], [class*=options]) {
+  display: none;
 }
