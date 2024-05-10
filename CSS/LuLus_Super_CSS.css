@@ -258,3 +258,28 @@ main[class*=chatContent]{
 [class*=layerContainer] [class*=popout]:has([class*=text-xs-medium], [class*=options]){
   display: none;
 }
+
+/* Replace Member List Mobile Icons */
+[mask*="avatar-status-mobile"]{
+  mask: url(#svg-mask-avatar-status-round-32) !important;
+}
+[mask*="mask-status-online-mobile)"]{
+  mask: url(#svg-mask-status-online)!important;
+  height: 10px !important;
+  width: 10px !important;
+  transform: translateY(5px) !important;
+}
+
+/* Replace Profile Popout Mobile Status Icons */
+[class*=userProfile] [mask*="mask-status-online-mobile)"]{
+  mask: url(#svg-mask-status-online)!important;
+  height: 16px !important;
+  width: 16px !important;
+  transform: translateY(8px) !important;
+}
+[class*=userProfile] [mask*="avatar-status-mobile"]{
+  mask: url(#svg-mask-avatar-status-round-80) !important;
+}
+[class*=userProfile] rect[fill=black]{
+  display: none;
+}

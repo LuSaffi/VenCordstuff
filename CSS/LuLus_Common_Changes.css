@@ -1,0 +1,107 @@
+/* Remove and replace SVG Icon [home] */
+:root{
+--discord-icon: none; /* discord icon */
+--moon-icon: block; /* moon icon */
+--moon-icon-url: url('https://cdn.discordapp.com/emojis/1126125369519513731.gif?size=96&quality=lossless');
+--moon-icon-size: auto;
+
+}
+
+[class*=childWrapper] > svg:not([class*=favoriteIcon]){
+    display: var(--discord-icon);
+  }
+  
+  [class*=childWrapper]:has(svg:not([class*=favoriteIcon]))::before {
+      content: '';
+      display: var(--moon-icon);
+      position: absolute;
+      width: 70%;
+      height: 70%;
+      background: var(--text-4);
+      mask-image: var(--moon-icon-url) center/contain no-repeat !important;
+      mask: var(--moon-icon-url) center/contain no-repeat !important;
+}
+/* Remove Support Question Mark[?] */
+[href="https://support.discord.com"]{
+    display: none;
+}
+
+/* Minimalistic Folders (aka Better Folders)*/
+[class*=closedFolderIcon]{
+    display:none; 
+  }
+  
+  div[class*="folderIconWrapper" i]:not([style=""]):before, [class*="foldericonwrapper" i]:not([style=""]):after{
+    position: absolute;
+      content: "";
+      width: 24px;
+      height: 24px;
+      inset: 0;
+      margin: auto;
+      background-color: inherit;
+      mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z'/%3E%3C/svg%3E");
+      mask-repeat: no-repeat;
+      filter: brightness(1.5) saturate(1.5);
+  }
+  
+  div[class*=wrapper] [class*="expandedFolderBackground" i]{
+   background-color: inherit;
+   filter: brightness(1.5) saturate(1.5);
+  }
+  
+  div[class*="folderIconWrapper" i] [class*=expandedFolderIconWrapper]{
+        transform: none !important;
+  }
+
+/* Context Menu "Invite to Server" */
+#user-context-invite-to-server {
+    display: none;
+  }
+
+/* REMOVE REPLY USERNAME */
+[class*=repliedMessage] [class*=username]{
+    display: none;
+  }
+
+  /* Hide Channel Invite */
+#channels [class*=actionIcon]:has([d*="M19 14a1 1 0 0 1"]){
+    display: none;
+  }
+  
+/* Remove VC Icons (chilling status) */
+[class*=iconGroup]:has([class*=hangStatusIcon], svg>path:not([d*='m2.7 22.7 20-20a1'], [d*='M22.7 2.7a1 1']), [class*=gameIcon]) {
+    display: none;
+  }
+  [class*=layerContainer] [class*=popout]:has([class*=text-xs-medium], [class*=options]){
+    display: none;
+  }
+
+/* Remove video Call Button */
+[role=button]:has([d*='M4 4a3 3 0 0']){
+    display: none;
+  }
+
+/* Replace Member List Mobile Icons */
+[mask*="avatar-status-mobile"]{
+    mask: url(#svg-mask-avatar-status-round-32) !important;
+  }
+  [mask*="mask-status-online-mobile)"]{
+    mask: url(#svg-mask-status-online)!important;
+    height: 10px !important;
+    width: 10px !important;
+    transform: translateY(5px) !important;
+  }
+  
+  /* Replace Profile Popout Mobile Status Icons */
+  [class*=userProfile] [mask*="mask-status-online-mobile)"]{
+    mask: url(#svg-mask-status-online)!important;
+    height: 16px !important;
+    width: 16px !important;
+    transform: translateY(8px) !important;
+  }
+  [class*=userProfile] [mask*="avatar-status-mobile"]{
+    mask: url(#svg-mask-avatar-status-round-80) !important;
+  }
+  [class*=userProfile] rect[fill=black]{
+    display: none;
+  }
