@@ -31,9 +31,9 @@
   /* CHANGE CUSTOM EMOJI FROM .gif TO .png TO MAKE STATIC ELEMENTS */
     --contentBlurSize: 3px;
     --shiggyPopoutIcons: url(https://media.discordapp.net/stickers/1217112512374505613.png)
-      /* animations */
+   /* animations */
 	  /* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
-	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
+  --list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
 	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
 	--moon-spin-transition: 0.5s ease; /* moon icon spin */
 	--icon-spin-transition: 0s ease; /* round icon button spin (settings, emoji, etc.) */
@@ -45,6 +45,21 @@
 	--discord-icon: none; /* discord icon */
 	--moon-icon: block; /* moon icon */
   --moon-icon-url: url('https://cdn.discordapp.com/emojis/1126125369519513731.gif?size=96&quality=lossless');
+}
+/* Remove SVG Icon [home] */
+[class*=childWrapper] > svg:not([class*=favoriteIcon]){
+  display: none;
+}
+
+[class*=childWrapper]:has(svg:not([class*=favoriteIcon]))::before {
+	content: '';
+	display: var(--moon-icon);
+	position: absolute;
+	width: 70%;
+	height: 70%;
+	background: var(--text-4);
+	mask-image: var(--moon-icon-url) center/contain no-repeat !important;
+	mask: var(--moon-icon-url) center/contain no-repeat !important;
 }
 
 /* Using an installed font */
@@ -298,18 +313,3 @@ main[class*=chatContent]{
   display: none;
 }
 
-/* Remove SVG Icon [home] */
-[class*=childWrapper] > svg:not([class*=favoriteIcon]){
-  display: none;
-}
-
-[class*=childWrapper]:has(svg:not([class*=favoriteIcon]))::before {
-	content: '';
-	display: var(--moon-icon);
-	position: absolute;
-	width: 70%;
-	height: 70%;
-	background: var(--text-4);
-	mask-image: var(--moon-icon-url) center/contain no-repeat !important;
-	mask: var(--moon-icon-url) center/contain no-repeat !important;
-}
