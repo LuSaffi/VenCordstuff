@@ -38,9 +38,9 @@ div {
   font-family: "Open Sans";
 }
 
-[class*="username"], [class*=header] {
+[class*="username"], [class*=header], [class*='typingdots' i]{
     font-family: "Open Sans";
-    font-weight: bolder;
+    font-weight: bolder !important;
 }
 
 li[class*='selected'] [class*="icon"]{
