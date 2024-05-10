@@ -30,7 +30,7 @@
   --customEmojiIconMask: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
   /* CHANGE CUSTOM EMOJI FROM .gif TO .png TO MAKE STATIC ELEMENTS */
     --contentBlurSize: 3px;
-    --shiggyPopoutIcons: url(https://media.discordapp.net/stickers/1217112512374505613.png)
+    --shiggyPopoutIcons: url(https://media.discordapp.net/stickers/1217112512374505613.png);
    /* animations */
 	  /* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
   --list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
