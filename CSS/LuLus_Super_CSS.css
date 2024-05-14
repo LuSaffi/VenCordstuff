@@ -309,7 +309,7 @@ main[class*=chatContent]{
 [class*=userProfile] [mask*="avatar-status-mobile"]{
   mask: url(#svg-mask-avatar-status-round-80) !important;
 }
-[class*=userProfile] rect[fill=black]{
+[class*=avatar] rect[fill=black], [class*=avatar] rect[fill=white]{
   display: none;
 }
 
