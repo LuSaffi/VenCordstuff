@@ -20,7 +20,7 @@
 	--font: 'figtree';
 
 	/* color of status indicators and window controls */
-	--online-indicator: #96d694; /* change to #23a55a for default green */
+	--online-indicator: #73cff4; /* change to #23a55a for default green */
 	--dnd-indicator: #cf223e; /* change to #f13f43 for default red */
 	--idle-indicator: #e3be45; /* change to #f0b232 for default yellow */
 	--streaming-indicator: #7a3dbe; /* change to #593695 for default purple */
