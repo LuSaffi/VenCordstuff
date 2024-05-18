@@ -829,6 +829,9 @@ button.button_ae40a4 /* make user panel buttons round */ {
 .bottom__53f5a > .containerPadding_ca1052:hover {
 	margin-bottom: -12px;
 }
+[class*=wrapper]:has([data-dnd-name*=end i]){
+	margin-bottom: 58px;
+	}
 
 .theme-light {
 	--text-link: var(--accent-5);

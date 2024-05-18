@@ -241,7 +241,7 @@ main[class*=chatContent]{
 
 
 /* Add Server Button */
-[class*=tutorialContainer__6 i]{
+[class*=tutorialContainer__6 i]:not([list-item-id*=discover]){
     position: fixed;
     bottom: 0px;
 	z-index: 2;
