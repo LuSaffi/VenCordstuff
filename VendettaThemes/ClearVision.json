@@ -124,9 +124,9 @@
             "#1c1f26"
         ],
         "DEPRECATED_CARD_BG": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+            "#1c1f26",
+            "#1c1f26",
+            "#1c1f26"
         ],
         "DEPRECATED_CARD_EDITABLE_BG": [
             "#0a2848",
@@ -144,9 +144,9 @@
             "#000000"
         ],
         "DEPRECATED_STORE_BG": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
+            "#1c1f26",
+            "#1c1f26",
+            "#1c1f26"
         ],
         "DEPRECATED_TEXT_INPUT_BG": [
             "#0a2848",
@@ -174,11 +174,6 @@
             "#000000"
         ],
         "ELEVATION_HIGH": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "ELEVATION_LOW": [
             "#0a2848",
             "#dcddde",
             "#000000"
