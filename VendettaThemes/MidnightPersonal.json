@@ -219,14 +219,14 @@
             "#9facc6"
         ],
         "INFO_HELP_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+            "#059ee9",
+            "#059ee9",
+            "#059ee9"
         ],
         "INFO_HELP_FOREGROUND": [
-            "#071e36",
-            "#dbeafa",
-            "#000000"
+            "#059ee9",
+            "#059ee9",
+            "#059ee9"
         ],
         "INFO_HELP_TEXT": [
             "#dcddde",
