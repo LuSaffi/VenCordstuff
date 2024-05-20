@@ -1,10 +1,10 @@
 {
     "name": "ClearVision vLuLu",
-    "description": "AAAAAAAAAAAAAAAA",
+    "description": "LuLu Midnight",
 	"authors": [
       {
-         "name": "Taki_Shiwa",
-         "id": "466968658997149706"
+         "name": "LuSaffi",
+         "id": "797721161504653332"
       }
     ],
     "semanticColors": {
@@ -89,9 +89,9 @@
             "#000000"
         ],
         "BACKGROUND_TERTIARY": [
-            "#04122e",
-            "#04122e",
-            "#04122e"
+            "#1c1f26",
+            "#1c1f26",
+            "#1c1f26"
         ],
         "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": [
             "#0a2848",
@@ -99,14 +99,14 @@
             "#000000"
         ],			
         "CHANNELS_DEFAULT": [
-            "#575a68",
-            "#575a68",
-            "#575a68"			
+            "#576175",
+            "#576175",
+            "#576175"			
         ],
         "CHANNEL_ICON": [
-            "#2780E64d",
-            "#2780E64d",
-            "#2780E64d"
+            "#576175",
+            "#576175",
+            "#576175"
         ],
         "CHAT_BACKGROUND": [
             "#00000099",
