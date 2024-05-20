@@ -114,9 +114,9 @@
             "#00000099"
         ],
         "CHANNEL_TEXT_AREA_PLACEHOLDER":  [
-            "#81b6ef",
-            "#81b6ef",
-            "#81b6ef"
+            "#ffffff",
+            "#ffffff",
+            "#ffffff"
         ],
         "CHANNELTEXTAREA_BACKGROUND": [
             "#0a2848",
@@ -449,7 +449,7 @@
     },
     "Background":{
         "url": "https://i.imgur.com/XqsmtGF.png",
-        "blur_radius": 4
+        "blur": 4
     },
     "plus": {
         "version": 0,
