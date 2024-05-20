@@ -1,5 +1,5 @@
 {
-    "name": "ClearVision vLuLu",
+    "name": "Midnight vLuLu",
     "description": "LuLu Midnight",
 	"authors": [
       {
@@ -413,8 +413,8 @@
         "RED_400": "#2780E6",
         "RED_430": "#2780E6",
         "RED_460": "#2780E6",
-        "GREEN_360": "#689d6a",
-        "WHITE_500": "#dcddde",
+        "GREEN_360": "#73cff4",
+        "WHITE_500": "#9facc6",
         "YELLOW_300": "#2780E6"
     },
     "Background":{
