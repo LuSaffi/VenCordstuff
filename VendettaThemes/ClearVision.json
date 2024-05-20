@@ -44,17 +44,23 @@
             "#061428"
         ],
         "BACKGROUND_ACCENT": [
-            "#86b4ea",
-            "#86b4ea",
-            "#86b4ea"
+            "#23272f",
+            "#23272f",
+            "#23272f"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
-            "#52587a1a"
+            "#114d917a",
+            "#2678d67a",
+            "#114d917a"
         ],
         "BACKGROUND_MODIFIER_ACTIVE": [
+            "#525f7a33",
+            "#525f7a33",
             "#525f7a33"
         ],
         "BACKGROUND_MODIFIER_HOVER": [
+            "#52587a1a",
+            "#52587a1a",
             "#52587a1a"
         ],
         "BACKGROUND_MODIFIER_SELECTED": [
