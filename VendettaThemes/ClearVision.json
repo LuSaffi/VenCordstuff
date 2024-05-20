@@ -442,8 +442,10 @@
         "WHITE_500": "#dcddde",
         "YELLOW_300": "#2780E6"
     },
-    "background": {
-        "url": "https://i.imgur.com/XqsmtGF.png"
+    "Background":{
+        "url": "https://i.imgur.com/XqsmtGF.png",
+        "overlay_alpha": 0.8,
+        "blur_radius": 4
     },
     "plus": {
         "version": 0,
