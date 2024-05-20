@@ -9,14 +9,14 @@
     ],
     "semanticColors": {
         "ACTIVITY_CARD_BACKGROUND": [
-            "#fb4934",
-            "#9d0006",
-            "#fb4934"
+            "#23272f",
+            "#23272f",
+            "#23272f"
         ],
         "BACKGROUND_FLOATING": [
-            "#102b47",
-            "#102b47",
-            "#102b47"
+            "#1c1f26",
+            "#1c1f26",
+            "#1c1f26"
         ],
         "BACKGROUND_MENTIONED": [
             "#bdae931a",
@@ -49,9 +49,9 @@
             "#23272f"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
-            "#114d917a",
-            "#2678d67a",
-            "#114d917a"
+            "#23272f",
+            "#23272f",
+            "#23272f"
         ],
         "BACKGROUND_MODIFIER_ACTIVE": [
             "#525f7a33",
