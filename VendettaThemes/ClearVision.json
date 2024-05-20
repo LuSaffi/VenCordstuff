@@ -49,14 +49,10 @@
             "#86b4ea"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
-            "#114d917a",
-            "#2678d67a",
-            "#114d917a"
+            "#52587a1a"
         ],
         "BACKGROUND_MODIFIER_ACTIVE": [
-            "#2678d626",
-            "#06142826",
-            "#2678d626"
+            "#525f7a33"
         ],
         "BACKGROUND_MODIFIER_HOVER": [
             "#52587a1a"
