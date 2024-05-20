@@ -1,5 +1,5 @@
 {
-    "name": "Midnight Trans",
+    "name": "Midnight(rafact0r) Trans",
     "description": "LuLu Midnight",
 	"authors": [
       {
@@ -333,6 +333,11 @@
             "#8a919a",
             "#8a919a"
         ],
+        "TEXT_PRIMARY":[
+            "#eeafc0",
+            "#eeafc0",
+            "#eeafc0"
+        ],
         "TEXT_DANGER": [
             "#e77176",
             "#e77176",
@@ -376,7 +381,8 @@
         "bg-gradient-chroma-glow-3": "#73cff4",
         "bg-gradient-chroma-glow-4": "#73cff4",
         "bg-gradient-chroma-glow-5": "#73cff4",
-        "PRIMARY_130": "#dfe0e3",
+        "PRIMARY_130": "#eeafc0",
+        "PRIMARY_230": "#eeafc0",
         "PRIMARY_500": "#23272f",
         "PRIMARY_600": "#1c1f26",
         "PRIMARY_630": "#1c1f26",
@@ -398,7 +404,6 @@
         "BRAND_360": "#4b96e7",
         "BRAND_500": "#25b4d0",
         "BRAND_560": "#1c879c",
-        "RED_400": "#2780E6",
         "RED_430": "#2780E6",
         "RED_460": "#2780E6",
         "GREEN_360": "#73cff4",
