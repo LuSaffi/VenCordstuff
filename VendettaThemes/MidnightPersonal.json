@@ -299,54 +299,54 @@
             "#000000"
         ],
         "STATUS_DANGER_BACKGROUND": [
-            "#fb4934",
-            "#9d0006",
-            "#fb4934"
+            "#25b4d0",
+            "#25b4d0",
+            "#25b4d0"
         ],
         "STATUS_DANGER_TEXT": [
-            "#83a598",
-            "#076678",
-            "#83a598"
+            "#ffffff",
+            "#ffffff",
+            "#ffffff"
         ],
         "STATUS_POSITIVE_BACKGROUND": [
-            "#689d6a",
-            "#427b58",
-            "#689d6a"
+            "#1c879c",
+            "#1c879c",
+            "#1c879c"
         ],
         "STATUS_POSITIVE_TEXT": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
+            "#ffffff",
+            "#ffffff",
+            "#ffffff"
         ],
         "STATUS_WARNING_BACKGROUND": [
-            "#fab387",
-            "#fab387",
-            "#fab387"
+            "#dda533",
+            "#dda533",
+            "#dda533"
         ],
         "STATUS_WARNING_TEXT": [
-            "#fb4934",
-            "#9d0006",
-            "#fb4934"
+            "#ffffff",
+            "#ffffff",
+            "#ffffff"
         ],
         "TEXTBOX_MARKDOWN_SYNTAX": [
-            "#076678",
-            "#076678",
-            "#076678"
+            "#8a919a",
+            "#8a919a",
+            "#8a919a"
         ],
         "TEXT_DANGER": [
-            "#fb4934",
-            "#9d0006",
-            "#fb4934"
+            "#e77176",
+            "#e77176",
+            "#e77176"
         ],
         "TEXT_LINK": [
-            "#2780E6",
-            "#2780E6",
-            "#2780E6"
+            "#73cff4",
+            "#73cff4",
+            "#73cff4"
         ],
         "TEXT_LINK_LOW_SATURATION": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
+            "#43798f",
+            "#43798f",
+            "#43798f"
         ],
         "TEXT_MUTED": [
             "#2678d6",
@@ -354,19 +354,19 @@
             "#2678d6"
         ],
         "TEXT_NORMAL": [
-            "#dcddde",
-            "#dcddde",
-            "#dcddde"
+            "#eeafc0",
+            "#eeafc0",
+            "#eeafc0"
         ],
         "TEXT_POSITIVE": [
-            "#689d6a",
-            "#427b58",
-            "#689d6a"
+            "#73cff4",
+            "#73cff4",
+            "#73cff4"
         ],
         "TEXT_WARNING": [
-            "#fb4934",
-            "#9d0006",
-            "#cc241d"
+            "#dda533",
+            "#dda533",
+            "#dda533"
         ]
     },
     "rawColors": {
