@@ -234,69 +234,49 @@
             "#7eb3f0"
         ],
         "INFO_POSITIVE_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+            "#209db6",
+            "#209db6",
+            "#209db6"
         ],
         "INFO_POSITIVE_FOREGROUND": [
-            "#071e36",
-            "#dbeafa",
-            "#000000"
+            "#209db6",
+            "#209db6",
+            "#209db6"
         ],
         "INFO_POSITIVE_TEXT": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
+            "#9facc6",
+            "#9facc6",
+            "#9facc6"
         ],
         "INFO_WARNING_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+            "#dda533",
+            "#dda533",
+            "#dda533"
         ],
         "INFO_WARNING_FOREGROUND": [
-            "#071e36",
-            "#dbeafa",
-            "#000000"
+            "#dda533",
+            "#dda533",
+            "#dda533"
         ],
         "INFO_WARNING_TEXT": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
+            "#9facc6",
+            "#9facc6",
+            "#9facc6"
         ],
         "INPUT_BACKGROUND": [
-            "#102b47",
-            "#102b47",
-            "#102b47"
-        ],
-        "INTERACTIVE_ACTIVE": [
-            "#2780E6",
-            "#2780E6",
-            "#2780E6"
-        ],
-        "INTERACTIVE_HOVER": [
-            "#061428",
-            "#665c54",
-            "#061428"
-        ],
-        "INTERACTIVE_MUTED": [
-            "#3f414c",
-            "#3f414c",
-            "#3f414c"
-        ],
-        "INTERACTIVE_NORMAL": [
-            "#81b6ef",
-            "#81b6ef",
-            "#81b6ef"
+            "#1c1f26",
+            "#1c1f26",
+            "#1c1f26"
         ],
         "LOGO_PRIMARY": [
-            "#83a598",
-            "#076678",
-            "#83a598"
+            "#9facc6",
+            "#9facc6",
+            "#9facc6"
         ],
         "MODAL_FOOTER_BACKGROUND": [
-            "#0a2848",
-            "#7eb3f0",
-            "#000000"
+            "#16181d",
+            "#16181d",
+            "#16181d"
         ],
         "SCROLLBAR_AUTO_THUMB": [
             "#061428",
