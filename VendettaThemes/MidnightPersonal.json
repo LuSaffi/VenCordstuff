@@ -1,5 +1,5 @@
 {
-    "name": "Midnight vLuLu",
+    "name": "Midnight Trans",
     "description": "LuLu Midnight",
 	"authors": [
       {
@@ -377,20 +377,10 @@
         "bg-gradient-chroma-glow-4": "#73cff4",
         "bg-gradient-chroma-glow-5": "#73cff4",
         "PRIMARY_130": "#dfe0e3",
-        "PRIMARY_200": "#7eb3f0",
-        "PRIMARY_230": "#7eb3f0",
-        "PRIMARY_300": "#3789E6",
-        "PRIMARY_360": "#2780E6",
-        "PRIMARY_400": "#0f4480",
-        "PRIMARY_460": "#061428",
-        "PRIMARY_500": "#114d91",
-        "PRIMARY_560": "#102b47",
-        "PRIMARY_600": "#061428",
-        "PRIMARY_630": "#000000",
-        "PRIMARY_660": "#000000",
-        "PRIMARY_700": "#000000",
-        "PRIMARY_800": "#000000",
-        "PRIMARY_900": "#0a2848",
+        "PRIMARY_500": "#23272f",
+        "PRIMARY_600": "#1c1f26",
+        "PRIMARY_630": "#1c1f26",
+        "PRIMARY_660": "#1c1f26",
         "BLACK_500": "#000000",
         "BLACK_530": "#000000",
         "BLACK_560": "#000000",
@@ -404,11 +394,10 @@
         "BLACK_830": "#000000",
         "BLACK_860": "#000000",
         "BLACK_900": "#000000",
-        "BRAND_230": "#ff0000",
-        "BRAND_260": "#86b4ea",
+        "BRAND_260": "#2b303b",
         "BRAND_360": "#4b96e7",
-        "BRAND_500": "#2780E6",
-        "BRAND_560": "#3789E6",
+        "BRAND_500": "#25b4d0",
+        "BRAND_560": "#1c879c",
         "RED_400": "#2780E6",
         "RED_430": "#2780E6",
         "RED_460": "#2780E6",
@@ -419,7 +408,7 @@
     "Background":{
         "blur": 0.6,
         "url": "https://i.imgur.com/XqsmtGF.png",
-        "alpha": 1
+        "alpha": 0.5
     },
     "plus": {
         "version": 0,
