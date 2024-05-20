@@ -8,5 +8,5 @@ ipconfig / release
 ipconfig / renew
 taskkill /f /IM explorer.exe
 start explorer.exe
-echo Success!
+echo Success! RESTART YOUR PC :3
 pause

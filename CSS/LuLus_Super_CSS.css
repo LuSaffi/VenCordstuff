@@ -276,7 +276,7 @@ main[class*=chatContent]{
   width: 28px;
 }
 /* Hide Inbox */
-[aria-label="Inbox" i]{
+[d*='M5 2a3 3 0 0']{
   display: var(--showInboxButton);
 }
 /* Remove VC Icons */
