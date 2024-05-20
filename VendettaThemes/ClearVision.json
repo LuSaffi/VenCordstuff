@@ -401,6 +401,11 @@
     },
     "rawColors": {
         "BG_GRADIENT_CRIMSON_MOON_2": "#000000",
+        "bg-gradient-chroma-glow-1": "#73cff4",
+        "bg-gradient-chroma-glow-2": "#eeafc0, #ffffff, #eeafc0",
+        "bg-gradient-chroma-glow-3": "#73cff4",
+        "bg-gradient-chroma-glow-4": "#73cff4",
+        "bg-gradient-chroma-glow-5": "#73cff4",
         "PRIMARY_100": "#3789E6",
         "PRIMARY_130": "#dbeafa",
         "PRIMARY_200": "#7eb3f0",
