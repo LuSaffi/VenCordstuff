@@ -59,9 +59,7 @@
             "#2678d626"
         ],
         "BACKGROUND_MODIFIER_HOVER": [
-            "#2678d626",
-            "#06142826",
-            "#2678d626"
+            "#52587a1a"
         ],
         "BACKGROUND_MODIFIER_SELECTED": [
             "#2678d699",
@@ -449,7 +447,6 @@
     },
     "Background":{
         "url": "https://i.imgur.com/XqsmtGF.png",
-        "overlay_alpha": 0.8,
         "blur_radius": 4
     },
     "plus": {
