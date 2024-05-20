@@ -189,39 +189,34 @@
             "#000000"
         ],
         "FOCUS_PRIMARY": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
-        ],
-        "GUILD_HEADER_TEXT_SHADOW": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+            "#049ee8",
+            "#049ee8",
+            "#049ee8"
         ],
         "HEADER_PRIMARY": [
-            "#dcddde",
-            "#0a2848",
-            "#dcddde"
+            "#9facc6",
+            "#9facc6",
+            "#9facc6"
         ],
         "HEADER_SECONDARY": [
-            "#2780E6",
-            "#2780E6",
-            "#2780E6"
+            "#576175",
+            "#576175",
+            "#576175"
         ],
         "INFO_DANGER_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#071e36"
+            "#df3e42",
+            "#df3e42",
+            "#df3e42"
         ],
         "INFO_DANGER_FOREGROUND": [
-            "#061428",
-            "#7eb3f0",
-            "#000000"
+            "#df3e42",
+            "#df3e42",
+            "#df3e42"
         ],
         "INFO_DANGER_TEXT": [
-            "#fb4934",
-            "#9d0006",
-            "#fb4934"
+            "#9facc6",
+            "#9facc6",
+            "#9facc6"
         ],
         "INFO_HELP_BACKGROUND": [
             "#0a2848",
@@ -443,7 +438,7 @@
         "YELLOW_300": "#2780E6"
     },
     "Background":{
-        "blur": 4,
+        "blur": 0.6,
         "url": "https://i.imgur.com/XqsmtGF.png",
         "alpha": 1
     },
