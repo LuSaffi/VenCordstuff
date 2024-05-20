@@ -1,6 +1,6 @@
 {
     "name": "Midnight(rafact0r) Trans",
-    "description": "LuLu Midnight",
+    "description": "v1.0 || image fix",
 	"authors": [
       {
          "name": "LuSaffi",
@@ -411,9 +411,7 @@
         "YELLOW_300": "#2780E6"
     },
     "Background":{
-        "blur": 0.6,
-        "url": "https://i.imgur.com/XqsmtGF.png",
-        "alpha": 0.5
+        "url": "https://i.imgur.com/zHIqSgdh.jpg"
     },
     "plus": {
         "version": 0,
