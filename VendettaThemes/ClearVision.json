@@ -114,14 +114,14 @@
             "#00000099"
         ],
         "CHANNEL_TEXT_AREA_PLACEHOLDER":  [
-            "#ffffff",
-            "#ffffff",
-            "#ffffff"
+            "#363d49",
+            "#363d49",
+            "#363d49"
         ],
         "CHANNELTEXTAREA_BACKGROUND": [
-            "#0a2848",
-            "#dcddde",
-            "#000000"
+            "#1c1f26",
+            "#1c1f26",
+            "#1c1f26"
         ],
         "DEPRECATED_CARD_BG": [
             "#0a2848",
@@ -448,8 +448,9 @@
         "YELLOW_300": "#2780E6"
     },
     "Background":{
+        "blur": 4,
         "url": "https://i.imgur.com/XqsmtGF.png",
-        "blur": 4
+        "alpha": 1
     },
     "plus": {
         "version": 0,
