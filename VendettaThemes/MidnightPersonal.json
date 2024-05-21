@@ -1,6 +1,6 @@
 {
     "name": "Midnight(rafact0r) Trans",
-    "description": "v1.2.8 || ChannelMentionColor",
+    "description": "v1.2.9 || ChannelMentionColor",
 	"authors": [
       {
          "name": "LuSaffi",
@@ -138,7 +138,46 @@
             "#dcddde",
             "#000000"
         ],
-
+        "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": [
+            "#0a2848",
+            "#dcddde",
+            "#000000"
+        ],
+        "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": [
+            "#0a2848",
+            "#dcddde",
+            "#000000"
+        ],
+        "DEPRECATED_STORE_BG": [
+            "#1c1f26",
+            "#1c1f26",
+            "#1c1f26"
+        ],
+        "DEPRECATED_TEXT_INPUT_BG": [
+            "#0a2848",
+            "#dcddde",
+            "#000000"
+        ],
+        "DEPRECATED_TEXT_INPUT_BORDER": [
+            "#0a2848",
+            "#dcddde",
+            "#000000"
+        ],
+        "DEPRECATED_TEXT_INPUT_BORDER_DISABLED": [
+            "#0a2848",
+            "#dcddde",
+            "#000000"
+        ],
+        "DEPRECATED_TEXT_INPUT_BORDER_HOVER": [
+            "#0a2848",
+            "#dcddde",
+            "#000000"
+        ],
+        "DEPRECATED_TEXT_INPUT_PREFIX": [
+            "#0a2848",
+            "#dcddde",
+            "#000000"
+        ],
         "ELEVATION_HIGH": [
             "#0a2848",
             "#dcddde",
@@ -341,34 +380,6 @@
         ]
     },
     "rawColors": {
-        "PRIMARY_130": "#eeafc0",
-        "PRIMARY_230": "#eeafc0",
-        "PRIMARY_500": "#23272f",
-        "PRIMARY_600": "#1c1f26",
-        "PRIMARY_630": "#1c1f26",
-        "PRIMARY_660": "#1c1f26",
-        "BLACK_500": "#000000",
-        "BLACK_530": "#000000",
-        "BLACK_560": "#000000",
-        "BLACK_600": "#000000",
-        "BLACK_630": "#000000",
-        "BLACK_660": "#000000",
-        "BLACK_700": "#000000",
-        "BLACK_730": "#000000",
-        "BLACK_760": "#000000",
-        "BLACK_800": "#000000",
-        "BLACK_830": "#000000",
-        "BLACK_860": "#000000",
-        "BLACK_900": "#000000",
-        "BRAND_260": "#2b303b",
-        "BRAND_360": "#4b96e7",
-        "BRAND_500": "#25b4d0",
-        "BRAND_560": "#1c879c",
-        "RED_430": "#2780E6",
-        "RED_460": "#2780E6",
-        "GREEN_360": "#73cff4",
-        "WHITE_500": "#9facc6",
-        "YELLOW_300": "#2780E6"
     },
     "Background":{
         "url": "https://i.imgur.com/zHIqSgd.png"
