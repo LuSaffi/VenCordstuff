@@ -1,6 +1,6 @@
 {
     "name": "Midnight(rafact0r) Trans",
-    "description": "v1.1 || image fix",
+    "description": "v1.2.1 || Color Fix",
 	"authors": [
       {
          "name": "LuSaffi",
@@ -375,7 +375,6 @@
         ]
     },
     "rawColors": {
-        "BG_GRADIENT_CRIMSON_MOON_2": "#000000",
         "BG_GRADIENT_CHROMA_GLOW_1": "#73cff4",
         "BG_GRADIENT_CHROMA_GLOW_2": "#eeafc0, #ffffff, #eeafc0",
         "BG_GRADIENT_CHROMA_GLOW_3": "#73cff4",
