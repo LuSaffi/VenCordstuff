@@ -1,6 +1,6 @@
 {
     "name": "Midnight(rafact0r) Trans",
-    "description": "v1.3.4 || Icon Fix?",
+    "description": "v1.3.5 || Icon2",
 	"authors": [
       {
          "name": "LuSaffi",
@@ -358,6 +358,11 @@
             "#43798f",
             "#43798f"
         ],
+        "ICON_PRIMARY": [
+            "#73cff4",
+            "#73cff4",
+            "#73cff4"
+        ],
         "TEXT_MUTED": [
             "#be8c99",
             "#be8c99",
@@ -382,8 +387,7 @@
     "rawColors": {
         "PRIMARY_130": "#eeafc0",
         "PRIMARY_230": "#eeafc0",
-        "PRIMARY_330": "#eeafc0",
-        "PRIMARY_500": "#eeafc0",
+        "PRIMARY_500": "#23272f",
         "PRIMARY_600": "#1c1f26",
         "PRIMARY_630": "#1c1f26",
         "PRIMARY_660": "#1c1f26",
