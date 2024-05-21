@@ -1,6 +1,6 @@
 {
     "name": "Midnight(rafact0r) Trans",
-    "description": "v1.2.7 || ChannelMentionColor",
+    "description": "v1.2.8 || ChannelMentionColor",
 	"authors": [
       {
          "name": "LuSaffi",
@@ -204,8 +204,8 @@
             "#909cb6"
         ],
         "HEADER_SECONDARY": [
-            "#b370ff",
-            "#b370ff",
+            "#73cff4",
+            "#73cff4",
             "#576175"
         ],
         "INFO_DANGER_BACKGROUND": [
@@ -224,19 +224,19 @@
             "#9facc6"
         ],
         "INFO_HELP_BACKGROUND": [
-            "#059ee9",
-            "#059ee9",
-            "#059ee9"
+            "#73cff4",
+            "#73cff4",
+            "#73cff4"
         ],
         "INFO_HELP_FOREGROUND": [
-            "#059ee9",
-            "#059ee9",
-            "#059ee9"
+            "#73cff4",
+            "#73cff4",
+            "#73cff4"
         ],
         "INFO_HELP_TEXT": [
-            "#dcddde",
-            "#0a2848",
-            "#7eb3f0"
+            "#73cff4dc",
+            "#73cff4dc",
+            "#73cff4dc"
         ],
         "INFO_POSITIVE_BACKGROUND": [
             "#209db6",
