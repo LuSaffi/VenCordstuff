@@ -1,6 +1,6 @@
 {
     "name": "Midnight(rafact0r) Trans",
-    "description": "v1.2.4 || Color test",
+    "description": "v1.2.5 || Channel Colors",
 	"authors": [
       {
          "name": "LuSaffi",
@@ -99,9 +99,9 @@
             "#000000"
         ],			
         "CHANNELS_DEFAULT": [
-            "#576175",
-            "#576175",
-            "#576175"			
+            "#1c1718",
+            "#1c1718",
+            "#1c1718"			
         ],
         "CHANNEL_ICON": [
             "#576175",

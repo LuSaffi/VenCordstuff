@@ -110,3 +110,12 @@ button:has([d*="M-7,10 C-8.104999542236328,10 -9"]) {
   [class*=userProfile] rect[fill=black]{
     display: none;
   }
+
+/* Remove Inbox */
+[class*=recentsIcon]{
+  display: none;
+}
+/* Legacy Remove Inbox */
+[d*='M5 2a3 3 0 0']{
+  display: none;
+}
