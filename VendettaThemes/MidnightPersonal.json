@@ -1,6 +1,6 @@
 {
     "name": "Midnight(rafact0r) Trans",
-    "description": "v1.3.3 || Google Sans",
+    "description": "v1.3.4 || Icon Fix?",
 	"authors": [
       {
          "name": "LuSaffi",
@@ -382,7 +382,8 @@
     "rawColors": {
         "PRIMARY_130": "#eeafc0",
         "PRIMARY_230": "#eeafc0",
-        "PRIMARY_500": "#23272f",
+        "PRIMARY_330": "#eeafc0",
+        "PRIMARY_500": "#eeafc0",
         "PRIMARY_600": "#1c1f26",
         "PRIMARY_630": "#1c1f26",
         "PRIMARY_660": "#1c1f26",
