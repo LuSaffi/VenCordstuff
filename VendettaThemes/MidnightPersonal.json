@@ -427,7 +427,6 @@
     },
     "spec": 2,
     "main": {
-        "ABCGintoNord-ExtraBold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
         "ggsans-Bold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
         "ggsans-BoldItalic": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf",
         "ggsans-ExtraBold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
@@ -438,12 +437,5 @@
         "ggsans-NormalItalic": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf",
         "ggsans-Semibold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
         "ggsans-SemiboldItalic": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf",
-        "NotoSans-Bold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
-        "NotoSans-ExtraBold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
-        "NotoSans-Medium": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
-        "NotoSans-Normal": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
-        "NotoSans-NormalItalic": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf",
-        "NotoSans-Semibold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
-        "SourceCodePro-Semibold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf" 
     }
             }
