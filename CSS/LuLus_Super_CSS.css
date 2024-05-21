@@ -280,7 +280,6 @@ main[class*=chatContent]{
   display: var(--showInboxButton);
 }
 
-
 /* Remove VC Icons */
 [class*=iconGroup]:has([class*=hangStatusIcon], svg>path:not([d*='m2.7 22.7 20-20a1'], [d*='M22.7 2.7a1 1']), [class*=gameIcon]) {
   display: none;
