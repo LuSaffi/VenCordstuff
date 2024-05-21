@@ -1,6 +1,6 @@
 {
     "name": "Midnight(rafact0r) Trans",
-    "description": "v1.2.5 || Channel Colors",
+    "description": "v1.2.6 || Channel Colors",
 	"authors": [
       {
          "name": "LuSaffi",
@@ -99,9 +99,9 @@
             "#000000"
         ],			
         "CHANNELS_DEFAULT": [
-            "#1c1718",
-            "#1c1718",
-            "#1c1718"			
+            "#B87A8B",
+            "#B87A8B",
+            "#B87A8B"			
         ],
         "CHANNEL_ICON": [
             "#576175",
@@ -109,19 +109,19 @@
             "#576175"
         ],
         "CHAT_BACKGROUND": [
-            "#00000099",
-            "#00000099",
-            "#00000099"
+            "#1c1f2698",
+            "#1c1f2698",
+            "#1c1f2698"
         ],
         "CHANNEL_TEXT_AREA_PLACEHOLDER":  [
-            "#363d49",
-            "#363d49",
-            "#363d49"
+            "#eeafc0",
+            "#eeafc0",
+            "#eeafc0"
         ],
         "CHANNELTEXTAREA_BACKGROUND": [
-            "#1c1f26",
-            "#1c1f26",
-            "#1c1f26"
+            "#1c1f2698",
+            "#1c1f2698",
+            "#1c1f2698"
         ],
         "DEPRECATED_CARD_BG": [
             "#1c1f26",
@@ -195,12 +195,12 @@
         ],
         "HEADER_PRIMARY": [
             "#b370ff",
-            "#b370ff",
-            "#b370ff"
+            "#576175",
+            "#576175"
         ],
         "HEADER_SECONDARY": [
-            "#576175",
-            "#576175",
+            "#b370ff",
+            "#b370ff",
             "#576175"
         ],
         "INFO_DANGER_BACKGROUND": [
