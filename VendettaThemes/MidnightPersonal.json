@@ -1,6 +1,6 @@
 {
     "name": "Midnight(rafact0r) Trans",
-    "description": "v1.2.6 || Channel Colors",
+    "description": "v1.2.7 || ChannelMentionColor",
 	"authors": [
       {
          "name": "LuSaffi",
@@ -27,6 +27,11 @@
             "#bdae931a",
             "#665c541a",
             "#bdae931a"
+        ],
+        "MENTION_FOREGROUND": [
+            "#73cff4",
+            "#73cff4",
+            "#73cff4"
         ],
         "BACKGROUND_MESSAGE_HOVER": [
             "#bdae931a",
