@@ -1,6 +1,6 @@
 {
     "name": "Midnight(rafact0r) Trans",
-    "description": "v1.3.0 || Font Test",
+    "description": "v1.3.1 || Font Test2",
 	"authors": [
       {
          "name": "LuSaffi",
@@ -427,23 +427,23 @@
     },
     "spec": 2,
     "main": {
-        "ABCGintoNord-ExtraBold": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "ggsans-Bold": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "ggsans-BoldItalic": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "ggsans-ExtraBold": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "ggsans-ExtraBoldItalic": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "ggsans-Medium": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "ggsans-MediumItalic": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "ggsans-Normal": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "ggsans-NormalItalic": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "ggsans-Semibold": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "ggsans-SemiboldItalic": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "NotoSans-Bold": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "NotoSans-ExtraBold": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "NotoSans-Medium": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "NotoSans-Normal": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "NotoSans-NormalItalic": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "NotoSans-Semibold": "https://fonts.googleapis.com/css2?family=Open+Sans",
-        "SourceCodePro-Semibold": "https://fonts.googleapis.com/css2?family=Open+Sans" 
+        "ABCGintoNord-ExtraBold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "ggsans-Bold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "ggsans-BoldItalic": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "ggsans-ExtraBold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "ggsans-ExtraBoldItalic": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "ggsans-Medium": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "ggsans-MediumItalic": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "ggsans-Normal": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "ggsans-NormalItalic": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "ggsans-Semibold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "ggsans-SemiboldItalic": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "NotoSans-Bold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "NotoSans-ExtraBold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "NotoSans-Medium": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "NotoSans-Normal": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "NotoSans-NormalItalic": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "NotoSans-Semibold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf",
+        "SourceCodePro-Semibold": "https://github.com/LuSaffi/VenCordstuff/raw/main/Fonts/OpenSans-VariableFont_wdth,wght.ttf" 
     }
             }
