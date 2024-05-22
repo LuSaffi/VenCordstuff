@@ -32,7 +32,7 @@
 	--text-5: #363d49; /* muted channels/chats and timestamps */
 
 	/* background and dark colors */
-	--bg-1: hsl(220, 15%, 20%); /* dark buttons when clicked */
+	--bg-1: #2b303b; /* dark buttons when clicked */
 	--bg-2: #23272f; /* dark buttons */
 	--bg-3: #1c1f26; /* spacing, secondary elements */
 	--bg-4: #16181d; /* main background color */
