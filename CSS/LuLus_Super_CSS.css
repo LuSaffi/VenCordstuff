@@ -275,8 +275,7 @@ main[class*=chatContent]{
   opacity: 1;
   width: 28px;
 }
-/* Hide Inbox */
-[class*=recentsIcon]{
+[class*=recentsIcon] [class*=iconWrapper]:not(selected){
   display: var(--showInboxButton);
 }
 
