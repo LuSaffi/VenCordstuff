@@ -259,9 +259,9 @@
             "#dda533"
         ],
         "INFO_WARNING_FOREGROUND": [
-            "#dda533",
-            "#dda533",
-            "#dda533"
+            "#eeafc0",
+            "#eeafc0",
+            "#eeafc0"
         ],
         "INFO_WARNING_TEXT": [
             "#9facc6",
@@ -451,4 +451,4 @@
         "NotoSans-Semibold": "https://github.com/Rairof/Theme-Fonts/raw/main/GoogleSans/GoogleSans-Medium.ttf?raw=1",
         "SourceCodePro-Semibold": "https://github.com/Rairof/Theme-Fonts/raw/main/GoogleSans/GoogleSans-Medium.ttf?raw=1"
     }
-            }
+}
