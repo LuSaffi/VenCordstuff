@@ -1,0 +1,159 @@
+/* Selfmessages. Heavily based on Discord 11's Message bubbles */
+/* Message Bubbles */
+/* Modified by x3non to work with Vencord */
+   /* New Messages bubble */
+   #app-mount [class^="messageListItem__"][data-is-self="true"],
+   #app-mount [class*=message][data-author-self=true] {
+    margin-left: auto;
+    width: auto;
+    padding-left: 48px;
+    padding-right: 16px !important;
+  }
+
+[class^="messageListItem__"][data-is-self="true"] [class*=container]:not([class*=shiki]),
+  [data-author-self=true] [class*=container]:not([class*=shiki]){
+    direction: rtl;
+    text-align: right;
+	 padding-right: 8px;
+  }
+
+
+
+#app-mount [class^="messageListItem__"][data-is-self="true"] [class*=groupStart] > [class*=contents] > [class*=markup],
+#app-mount [class*=message][data-author-self=true] [class*=groupStart] > [class*=contents] > [class*=markup]  {
+   text-align: left;
+}
+  
+#app-mount [class^="messageListItem__"][data-is-self="true"] [class*=contents],
+#app-mount [class*=message][data-author-self=true] [class*=contents] {
+    display: inline-flexbox;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+  #app-mount [class^="messageListItem__"][data-is-self="true"][class*=message][class*=selected] [class*=contents],
+  #app-mount [class*=message][class*=selected][data-author-self=true] [class*=contents] {
+    width: 100%;
+  }
+
+  #app-mount [class^="messageListItem__"][data-is-self="true"] [class*=timestamp],
+  #app-mount [class*=message][data-author-self=true] [class*=timestamp] {
+    left: unset;
+    right: 8px;
+    margin-top: 1.75px;
+}
+
+  #app-mount [class^="messageListItem__"][data-is-self="true"] [class*=replying] [class*=contents] [class*=messageContent]::before,
+  #app-mount [class^="messageListItem__"][data-is-self="true"] [class*=mentioned] [class*=contents] [class*=messageContent]::before,
+  #app-mount [class*=replying][data-author-self=true] [class*=contents] [class*=messageContent]::before,
+  #app-mount [class*=mentioned][data-author-self=true] [class*=contents] [class*=messageContent]::before {
+    left: unset;
+    right: 0;
+  }
+
+#app-mount [class^="messageListItem__"][data-is-self="true"] [class*=contents] [class*=messageContent],
+#app-mount [class*=message] [data-author-self=true] [class*=content] [class*=messageContent]{
+    margin-left: auto;
+    background-color: var(--bg-4) !important;
+    border-radius: 5px;
+}
+
+  #app-mount [class^="messageListItem__"][data-is-self="true"] a:not([class*=embed] [class*=embedAuthorNameLink]),
+  #app-mount [class^="messageListItem__"][data-is-self="true"] [class*=repliedMessage]
+  #app-mount [class*=message][data-author-self=true] a:not([class*=embed] [class*=embedAuthorNameLink]),
+  #app-mount [class*=message][data-author-self=true] [class*=repliedMessage] {
+    margin-left: auto;
+  }
+
+  #app-mount [class^="messageListItem__"][data-is-self="true"] [class*=embedAuthor],
+  #app-mount [class*=message][data-author-self=true] [class*=embedAuthor] {
+    direction: ltr;
+  }
+
+  #app-mount [class^="messageListItem__"][data-is-self="true"] [class*=avatar],
+  #app-mount [class*=message][data-author-self=true] [class*=avatar]{
+    left: unset;
+    right: 0.25rem;
+  }
+  [class^="messageListItem__"][data-is-self="true"] [class*=avatarDecoration],
+  [class*=message][data-author-self=true] [class*=avatarDecoration]{
+    right: 0px !important;
+  }
+
+  #app-mount [class^="messageListItem__"][data-is-self="true"] [class*=header],
+  #app-mount [class*=message] [data-author-self=true] [class*=header] {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+[class^="messageListItem__"][data-is-self="true"] [class*=header] span,
+[data-author-self=true] [class*=header] span {
+    margin-left: .25rem;
+    margin-right: unset;
+  }
+
+  #app-mount [class*=contents] pre {
+    max-width: 100%;
+  }
+  
+  #app-mount [class*=contents] [class*=messageContent] {
+    background-color: var(--bg-3);
+    padding: 1px;
+    margin-left: unset;
+    width: fit-content;
+    border-radius: 5px;
+  }
+
+
+  #app-mount [class*=message] {
+    max-width: 100%;
+  }
+
+
+[class^="messageListItem__"][data-is-self="true"] [class*=compact][class*=wrapper] [class*=messageContent],
+[class*=message] [class*=compact] [class*=wrapper] [data-author-self=true] [class*=messageContent] {
+    display: flex;
+  }
+  
+  #app-mount [class*=compact] [class*=wrapper] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  
+  #app-mount .mentioned_fa6fd2 .contents_d3ae0d .messageContent_abea64 {
+    background-color: var(--background-mentioned);
+  }
+
+  #app-mount .mentioned_fa6fd2:hover .contents_d3ae0d  .messageContent_abea64,
+  #app-mount .mentioned_fa6fd2.selected_e3bc5d .contents_d3ae0d .messageContent_abea64 {
+    background-color: var(--background-mentioned-hover);
+  }
+
+  #app-mount .mentioned_fa6fd2 .contents_d3ae0d .messageContent_abea64::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    pointer-events: none;
+    width: 3px;
+    margin: 8px 0;
+    z-index: 1;
+  }
+  
+  #app-mount .repliedMessage__636d2 {
+    background-color: var(--background-message-hover);
+    margin-bottom: 0;
+    padding: 6px;
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 100%;
+  }
+
+
+[data-is-self=true] [id*=message-reply]::before{
+  display: none;
+}
