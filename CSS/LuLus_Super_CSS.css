@@ -4,36 +4,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans");
 
 :root {
-  --channelColor: #b370ff;
-  --channelColorSec: #ff4120;
+  --channelColor: #eeafc0;
+  --channelColorSec: #73cff4;
   --userColors: #b370ff;
-  --uploadBarBackground: #5f3392;
-  --uploadBarProgress: #b370ff;
-  --mentionBarColor: var(--userColors);
+  --mentionBarColor: #eeafc0;
   --expression-picker-aspect-ratio: 1.125 / 1; /* Resize Gif Picker */
   /* chroma Trans Theme */
     --bg-gradient-chroma-glow-1: #73cff4;
-    --bg-gradient-chroma-glow-2: #eeafc0, #fff, #eeafc0;
+    --bg-gradient-chroma-glow-2: #eeafc0, #ffffff, #eeafc0;
     --bg-gradient-chroma-glow-3: #73cff4;
     --bg-gradient-chroma-glow-4: #73cff4;
     --bg-gradient-chroma-glow-5: #73cff4;
 
-  /* Display Changes */
-  --displayUserTags: none; /* inherit = on || none = off */
-  --displayShiggyIcons: inherit; /* inherit = on || none = off */
-  --showNitroButton: none; /* inherit = on || none = off */
-  --showWelcomeButtons: none; /* inherit = on || none = off */
-  --showNewMemberIcon: none; /* inherit = on || none = off */
-  --showInboxButton: none;
-  /* Icon Tweaks */
-  --customEmojiIconURL: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
-  --customEmojiIconMask: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=128&quality=lossless);
+  /* Shiggy Cursor|| uncomment to enable */
+  /* --cursor: url('https://schizophrenic.lol/assets/shiggy.cur'); */
+    --displayUserTags: none; /* inherit = on || none = off */
+    --displayShiggyIcons: inherit; /* inherit = on || none = off */
+    --showNitroButton: none; /* inherit = on || none = off */
+    --uploadBarBackground: #5f3392;
+    --uploadBarProgress: #b370ff;
+    --showWelcomeButtons: none; /* inherit = on || none = off */
+    --showNewMemberIcon: none; /* inherit = on || none = off */
+    --showInboxButton: none; /* block = on || none = off */
+    --customEmojiIconURL: url(https://cdn.discordapp.com/emojis/1217110775601172591.gif?size=240&quality=lossless);
+    --customEmojiIconMask: url(https://cdn.discordapp.com/emojis/1217110775601172591.gif?size=240&quality=lossless);
   /* CHANGE CUSTOM EMOJI FROM .gif TO .png TO MAKE STATIC ELEMENTS */
-    --contentBlurSize: 3px;
-    --shiggyPopoutIcons: url(https://media.discordapp.net/stickers/1217112512374505613.png);
-   /* animations */
+  --contentBlurSize: 3px;
+  /* LEAVE THIS OUT OF UPDATES DUMBASS */
+  	/* text colors */
+  --accent-1: var(--channelColorSec); /* links */
+  --accent-2: #73cff4d2; /* general unread/mention elements */
+	--accent-3: #73cff4; /* accent buttons */
+	--accent-4: hsl(268, 20%, 39%); /* accent buttons when hovered */
+	--accent-5: hsl(268, 20%, 34%); /* accent buttons when clicked */
+	--text-0: white; /* text on colored elements */
+	--text-1: var(--channelColor); /* other normally white text */
+	--text-2: hsl(220, 25%, 70%); /* headings and important text */
+	--text-3: var(--channelColor); /* normal text */
+	--text-4: var(--channelColor); /* icon buttons and channels */
+	--text-5: #eeafc093; /* muted channels/chats and timestamps */
+  --hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
+	--active: hsla(344, 65%, 81%, 0.3); /* channels and buttons when clicked or selected */
+  --corner-text: 'Edencord';
+  --bg-1: #eeafc05e; /* dark buttons when clicked */
+	--bg-2: #73cff48c; /* dark buttons */
+  --sidebar-initial-width: 220px;
+  --spacing: 5px;
+  /* animations */
 	  /* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
-  --list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
+	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
 	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
 	--moon-spin-transition: 0.5s ease; /* moon icon spin */
 	--icon-spin-transition: 0s ease; /* round icon button spin (settings, emoji, etc.) */
@@ -42,9 +61,19 @@
   --message-line-spacing: 2; /* Line spacing on messages */
   	/* direct messages moon icon */
 	/* change to block to show, none to hide */
+  --onekomessagebar-skin: url(https://github.com/LuSaffi/VenCordstuff/blob/main/Images/eevee.png?raw=true);
+  --onekomessagebar-selected-animation: sleep;
+  --onekomessagebar-selected-duration: 2s;
+  --onekomessagebar-wakeup-animation: sleep;
 	--discord-icon: none; /* discord icon */
 	--moon-icon: block; /* moon icon */
   --moon-icon-url: url('https://cdn.discordapp.com/emojis/1126125369519513731.gif?size=96&quality=lossless');
+    --blur-popup: 80px; /*Popup blur size*/
+    --opacity-popup: 0.3; /*Popup background opacity*/  
+    --radius-popup: 20px; /*Popup border radius*/
+    --radius-context: 20px; /*Context menu popups radius*/
+    --pop-up-color: #eeafc07a; /*uncomment for custom Popup color*/ 
+    --unity-border-radius: 15px;
 }
 /* Remove SVG Icon [home] */
 [class*=childWrapper] > svg:not([class*=favoriteIcon]){
