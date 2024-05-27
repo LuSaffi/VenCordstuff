@@ -633,7 +633,7 @@ button.button__581d0 /* small buttons */,
 	height: 0px;
 	font-family: var(--font);
 	color: var(--text-5);
-	transform: scale(0.03) translate(-355rem, 0rem);
+	transform: scale(0.03) translate(-310rem, 0rem);
 }
 [class^='wordmarkWindows']::after {
 	content: var(--corner-text);
