@@ -287,3 +287,157 @@ main[class*=chatContent]{
 [class*=layerContainer] [class*=popout]:has([class*=text-xs-medium], [class*=options]){
   display: none;
 }
+
+[class*=wumpus] {
+  scale: 1;
+  content: url(https://media.discordapp.net/stickers/1217112512374505613.png?size=160&passthrough=true);
+}
+[class*=focusLock]:has([class*=wumpus]) [class*=text-md] {
+  font-size: 0 !important;
+}
+[class*=focusLock]:has([class*=wumpus]) [class*=text-md]::after {
+  font-size: 16px !important;
+  content: "Relax with Viggy for as long as you need."
+}
+
+[class*=unreadImportant]{
+background: #73cff4 !important;
+}
+/* video Call Button */
+[class*=toolbar] [role=button]:has([d*='M4 4a3 3 0 0']){
+  display: none;
+}
+[class*=notice__]{
+  background-color: var(--background-primary);
+}
+
+[class*=iconGroup]:has([class*=hangStatusIcon], [d*='M13 3a1'], [class*=gameIcon]) {
+  display: flex;
+  position: absolute;
+  right: 100%;
+}
+[class*=layerContainer] [class*=popout]:has([class*=text-xs-medium], [class*=options]){
+  display: block;
+}
+
+[id*=user-context-call]{
+  display: none;
+}
+[class*=sticker]{
+  border-radius: 10px;
+}
+
+/* Hide Channel Invite */
+#channels [class*=actionIcon]:has([d*="M19 14a1 1 0 0 1"]){
+  display: none;
+}
+
+/* Improved Timestamp visibility */
+[class*=messageContent] [class*=timestamp]:not(:has([class*=edited])) {
+  border: 2px solid var(--brand-500);
+  border-radius: 8px;
+  font-size: smaller;
+}
+[class*=messageContent] [class*=timestamp]:not(:has([class*=edited]))::before {
+  content: "🕔";
+  margin-left: -2px;
+  display: inline-flex;
+}
+[class*=messageContent] [class*=timestamp]:not(:has([class*=edited]))::after {
+  content: "";
+  margin-right: 2px;
+}
+
+[class*=embedFull] {
+    border: 3px solid !important;
+}
+
+
+/* BETTER FOLDERS */
+[class*=closedFolderIcon]{
+  display:none; 
+}
+
+div[class*="folderIconWrapper" i]:not([style=""]):before, [class*="foldericonwrapper" i]:not([style=""]):after{
+  position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    inset: 0;
+    margin: auto;
+    background-color: inherit;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z'/%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    filter: brightness(1.5) saturate(1.5);
+}
+
+div[class*=wrapper] [class*="expandedFolderBackground" i]{
+ background-color: inherit;
+ filter: brightness(1.5) saturate(1.5);
+}
+
+div[class*="folderIconWrapper" i] [class*=expandedFolderIconWrapper]{
+      transform: none !important;
+}
+
+/* no class selectors
+/* Changing the server pill sizing, color and bnehaviour */
+.wrapper__216eb .pill_d1140c,
+.wrapper__216eb .pill__66ac8 {
+    display: none;
+}
+
+.wrapper__216eb .pill__6b31b,
+.wrapper__216eb .pill__13f64 {
+    /* left: 0 !important; */
+    /* top: calc(24px * var(--guildsize_v)/50) !important; */
+    height: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: 0.2s;
+}
+
+.item_f9d377 {
+    width: 4px !important;
+    min-height: 30% !important;
+    border-radius: .25rem !important;
+    margin: 0 !important;
+    background-color: var(--channelColor) !important;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.listItem__48528:hover .item_f9d377 {
+    height: 50% !important;
+    background-color: var(--channelColorSec) !important;
+    transition: 0.3s;
+  
+}
+
+/* Resizable ChannelList */
+.separator__666aa {
+  margin: 0;
+  justify-content: center;
+  width: 40px;
+}
+.separator__666aa::before {
+  display: none;
+}
+.separator__666aa .innerButton__9efb8 {
+  margin: 0;
+}
+.textArea_a86690 {
+  width: fit-content;
+  flex-grow: 1.01;
+}
+
+.sidebar_e031be {
+resize: horizontal;
+width: var(--sidebar-initial-width);
+}
+.sidebar_e031be .channel__0aef5 {
+max-width: unset;
+}
+.bannerImage_c73a57,
+.bannerImg_fe5c1b {
+width: 100%;
+}
