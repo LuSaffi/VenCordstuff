@@ -96,10 +96,10 @@
 }
 
 div, span, body, p, *{
-	font-family: var(--font) !important;
+	font-family: var(--font);
   }
   
   [class*="username"], [class*=header], [class*='typingdots' i]{
 	  font-family: var(--font);
-	  font-weight: bolder !important;
+	  font-weight: bolder;
   }
