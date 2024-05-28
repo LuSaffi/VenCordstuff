@@ -75,9 +75,9 @@
 	/* direct messages moon icon */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
-	--moon-icon: none; /* moon icon */
-	--moon-icon-url: none;
-	--moon-icon-size: auto;
+	--home-icon: none; /* moon icon */
+	--home-icon-url: none;
+	--home-icon-size: auto;
 
 	/* filter uncolorable elements to fit theme */
 	/* (just set to none, they're too much work to configure) */

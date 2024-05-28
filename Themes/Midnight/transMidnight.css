@@ -61,9 +61,9 @@
 	/* direct messages moon icon */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
-	--moon-icon: block; /* moon icon */
-	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
-	--moon-icon-size: auto;
+	--home-icon: block; /* moon icon */
+	--home-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
+	--home-icon-size: auto;
 
 	/* filter uncolorable elements to fit theme */
 	/* (just set to none, they're too much work to configure) */
@@ -695,13 +695,13 @@ button.button__581d0 /* small buttons */,
 }
 .childWrapper_a6ce15:has(> svg:not(.favoriteIcon__901fa))::before {
 	content: '';
-	display: var(--moon-icon);
+	display: var(--home-icon);
 	position: absolute;
 	width: 65%;
 	height: 65%;
 	background: var(--text-4);
-	mask-image: var(--moon-icon-url) center/contain no-repeat;
-	mask-size: var(--moon-icon-size) center/contain no-repeat;
+	mask-image: var(--home-icon-url) center/contain no-repeat;
+	mask-size: var(--home-icon-size) center/contain no-repeat;
 	mask-repeat: none;
 }
 .wrapper__8436d:hover .childWrapper_a6ce15::before {

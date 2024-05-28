@@ -84,9 +84,9 @@
 	/* direct messages moon icon */
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
-	--moon-icon: block; /* moon icon */
-  	--moon-icon-url: url('https://cdn.discordapp.com/emojis/1126125369519513731.gif?size=96&quality=lossless');
-	--moon-icon-size: auto;
+	--home-icon: block; /* moon icon */
+  	--home-icon-url: url('https://cdn.discordapp.com/emojis/1126125369519513731.gif?size=96&quality=lossless');
+	--home-icon-size: auto;
 
 	/* filter uncolorable elements to fit theme */
 	/* (just set to none, they're too much work to configure) */

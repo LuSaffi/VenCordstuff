@@ -66,8 +66,8 @@
   --onekomessagebar-selected-duration: 2s;
   --onekomessagebar-wakeup-animation: sleep;
 	--discord-icon: none; /* discord icon */
-	--moon-icon: block; /* moon icon */
-  --moon-icon-url: url('https://cdn.discordapp.com/emojis/1126125369519513731.gif?size=96&quality=lossless');
+	--home-icon: block; /* moon icon */
+  --home-icon-url: url('https://cdn.discordapp.com/emojis/1126125369519513731.gif?size=96&quality=lossless');
     --blur-popup: 80px; /*Popup blur size*/
     --opacity-popup: 0.3; /*Popup background opacity*/  
     --radius-popup: 20px; /*Popup border radius*/
@@ -82,13 +82,13 @@
 
 [class*=childWrapper]:has(svg:not([class*=favoriteIcon]))::before {
 	content: '';
-	display: var(--moon-icon);
+	display: var(--home-icon);
 	position: absolute;
 	width: 70%;
 	height: 70%;
 	background: var(--text-4);
-	mask-image: var(--moon-icon-url) center/contain no-repeat !important;
-	mask: var(--moon-icon-url) center/contain no-repeat !important;
+	mask-image: var(--home-icon-url) center/contain no-repeat !important;
+	mask: var(--home-icon-url) center/contain no-repeat !important;
 }
 
 /* Using an installed font */
