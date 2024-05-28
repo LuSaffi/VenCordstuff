@@ -689,21 +689,21 @@ button.button__581d0 /* small buttons */,
 	background-color: var(--idle-indicator) !important;
 }
 
-/* custom dm button moon icon */
-.childWrapper_a6ce15 > svg:not(.favoriteIcon__901fa) {
+/* Remove SVG Icon [home] */
+[class*=childWrapper] > svg:not([class*=favoriteIcon]){
 	display: var(--discord-icon);
-}
-.childWrapper_a6ce15:has(> svg:not(.favoriteIcon__901fa))::before {
-	content: '';
-	display: var(--home-icon);
-	position: absolute;
-	width: 65%;
-	height: 65%;
-	background: var(--text-4);
-	mask-image: var(--home-icon-url) center/contain no-repeat;
-	mask-size: var(--home-icon-size) center/contain no-repeat;
-	mask-repeat: none;
-}
+  }
+  
+  [class*=childWrapper]:has(svg:not([class*=favoriteIcon]))::before {
+	  content: '';
+	  display: var(--home-icon);
+	  position: absolute;
+	  width: 70%;
+	  height: 70%;
+	  background: var(--text-4);
+	  mask-image: var(--home-icon-url) center/contain no-repeat !important;
+	  mask: var(--home-icon-url) center/contain no-repeat !important;
+  }
 .wrapper__8436d:hover .childWrapper_a6ce15::before {
 	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
 	transform: rotate(0deg) scale(1);
