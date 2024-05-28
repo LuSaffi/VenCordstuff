@@ -1,7 +1,7 @@
 /**
- * @name midnight (biscuit)
+ * @name midnight (trans)
  * @description A dark, rounded discord theme. Based on Biscuit theme (https://github.com/Biscuit-Colorscheme/biscuit).
- * @author refact0r, anubis
+ * @author refact0r, LuSaffi
  * @version 1.6.2
  * @invite nz87hXyvcy
  * @website https://github.com/refact0r/midnight-discord
@@ -18,7 +18,7 @@
 /* customize things here */
 :root {
 	/* font, change to 'gg sans' for default discord font*/
-	--font: 'Open Sans' 'Noto Color Emoji';
+	--font: 'Open Sans', 'Noto Color Emoji';
   	/* chroma Trans Theme */
   --bg-gradient-chroma-glow-1: #73cff4;
   --bg-gradient-chroma-glow-2: #eeafc0, #ffffff, #eeafc0;
@@ -34,12 +34,15 @@
 	/* top left corner text */
 	--corner-text: 'Trans Rights!';
 
+	--channelColor: #eeafc0;
+	--channelColorSec: #73cff4;
+	--userColors: #b370ff;
 	/* accent colors */
 	--accent-1: var(--channelColorSec); /* links */
 	--accent-2: #73cff4d2; /* general unread/mention elements */
-	  --accent-3: #73cff4; /* accent buttons */
-	  --accent-4: #625077; /* accent buttons when hovered */
-	  --accent-5: #564568; /* accent buttons when clicked */
+	--accent-3: #73cff4; /* accent buttons */
+	--accent-4: #625077; /* accent buttons when hovered */
+	--accent-5: #564568; /* accent buttons when clicked */
 	--mention: #6250771a; /* mentions & mention messages */
 	--mention-hover: #6250770d; /* mentions & mention messages when hovered */
 
@@ -92,3 +95,11 @@
 	--blurple-to-accent-3-filter: none; /* add friend page school icon */
 }
 
+div, span, body, p, *{
+	font-family: var(--font) !important;
+  }
+  
+  [class*="username"], [class*=header], [class*='typingdots' i]{
+	  font-family: var(--font);
+	  font-weight: bolder !important;
+  }
