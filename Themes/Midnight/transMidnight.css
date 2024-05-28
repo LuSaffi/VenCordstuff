@@ -689,6 +689,20 @@ button.button__581d0 /* small buttons */,
 	background-color: var(--idle-indicator) !important;
 }
 
+/* Add Server Button */
+[class*=tutorialContainer__6 i]:not([list-item-id*=discover]){
+    position: fixed;
+    bottom: 0px;
+	z-index: 2;
+
+}
+
+[class*=tutorialContainer__6 i] [class*=svg]{
+  background-color: #1c2b31;
+  opacity: 90%;
+  border-radius: 48px;
+}
+
 /* Remove SVG Icon [home] */
 [class*=childWrapper] > svg:not([class*=favoriteIcon]){
 	display: var(--discord-icon);
