@@ -45,7 +45,6 @@
 	--text-5: #eeafc093; /* muted channels/chats and timestamps */
   --hover: hsla(230, 20%, 40%, 0.1); /* channels and buttons when hovered */
 	--active: hsla(344, 65%, 81%, 0.3); /* channels and buttons when clicked or selected */
-  --corner-text: 'Edencord';
   --bg-1: #eeafc05e; /* dark buttons when clicked */
 	--bg-2: #73cff48c; /* dark buttons */
   --sidebar-initial-width: 220px;

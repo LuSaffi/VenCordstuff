@@ -39,7 +39,7 @@
 	--hover: #52587a1a; /* channels and buttons when hovered */
 	--active: #525f7a33; /* channels and buttons when clicked or selected */
 	--message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
-
+	--wrapperShadows: visible;
 	/* amount of spacing and padding */
 	--spacing: 12px;
 
@@ -565,20 +565,9 @@ button.button__581d0 /* small buttons */,
 .base_c0676e {
 	margin-left: var(--spacing);
 }
-.guilds__2b93a::after /* add bottom scroll shadow */,
-.membersWrap__5ca6b::after {
-	content: '';
-	position: absolute;
-	background: linear-gradient(transparent 85%, var(--bg-4) 100%);
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100px;
-	pointer-events: none;
-	border-radius: 0 0 var(--roundness-xl) var(--roundness-xl);
-}
-.guilds__2b93a::before /* add top scroll shadow */ {
-	content: '';
+[class*=guilds]::after,
+[class*=membersWrap]::after{
+  content: '';
 	position: absolute;
 	background: linear-gradient(var(--bg-4) 0%, transparent 15%);
 	top: 0;
@@ -587,6 +576,19 @@ button.button__581d0 /* small buttons */,
 	height: 100px;
 	pointer-events: none;
 	z-index: 1;
+  visibility: var(--wrapperShadows);
+}
+[class*=guilds]::before{
+  content: '';
+	position: absolute;
+	background: linear-gradient(var(--bg-4) 0%, transparent 15%);
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	pointer-events: none;
+	z-index: 1;
+  visibility: var(--wrapperShadows);
 }
 .childWrapper_a6ce15 {
 	background: var(--bg-3);
