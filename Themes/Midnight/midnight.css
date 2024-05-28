@@ -626,26 +626,18 @@ button.button__581d0 /* small buttons */,
 [class^='wordmarkWindows'] > svg {
 	display: none;
 }
-[class^='wordmarkWindows']::before {
-	content: url('https://images.emojiterra.com/google/noto-emoji/unicode-15.1/color/512px/1f3f3-26a7.png');
-	display: block;
-	position: relative;
-	height: 0px;
-	font-family: var(--font);
-	color: var(--text-5);
-	transform: scale(0.03) translate(-355rem, 0rem);
-}
 [class^='wordmarkWindows']::after {
 	content: var(--corner-text);
 	display: block;
 	position: relative;
-
+	height: 16px;
+	line-height: 16px;
 	font-family: var(--font);
 	font-size: 13px;
 	font-weight: 900;
 	color: var(--text-5);
 	transform: scaleX(1.2);
-	margin-left: 45px;
+	margin-left: 6px;
 }
 
 /* top bar height */
