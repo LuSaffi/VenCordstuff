@@ -769,7 +769,12 @@ button.button__581d0 /* small buttons */,
 .channel__0aef5:hover {
 	margin-left: 18px;
 }
-
+[class*=guilds]::before{
+	visibility: var(--wrapperShadows);
+  }
+[class*=guilds]::after{
+	visibility: var(--wrapperShadows);
+  }
 /* spin hover animations */
 button.button_ae40a4 /* make user panel buttons round */ {
 	border-radius: 50%;
