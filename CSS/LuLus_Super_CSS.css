@@ -466,3 +466,8 @@ max-width: unset;
 .bannerImg_fe5c1b {
 width: 100%;
 }
+
+[class*=userPopoutOuter_] {
+  border-radius: var(--radius-xs);
+  overflow: hidden;
+}
