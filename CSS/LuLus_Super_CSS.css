@@ -229,7 +229,7 @@ div[class*="imageContent"] span[class*="altText"]{
 
 [class*=emojiButton] [class*=spriteGreyscale]{mask: var(--customEmojiIconMask) center/contain no-repeat;}
 
-[id*="popout_"]::after, [class*=menu]::after {
+[id*=popout_ i]::after, [class*=menu i]::after {
   display: var(--displayShiggyIcons);
     content: "";
     position: absolute;
