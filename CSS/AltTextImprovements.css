@@ -1,3 +1,7 @@
+:root{
+    --altTextMosaicSize: 25%;
+}
+
 [class*=mediaMosaicAltText] {
     position: unset;
     width: 100%;
@@ -41,5 +45,5 @@
   }
   
   [class*=mosaicContainer] [class*=imageContainer]{
-    height: 25%
+    height: var(--altTextMosaicSize);
   }
