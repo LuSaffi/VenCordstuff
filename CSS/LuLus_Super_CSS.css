@@ -304,6 +304,7 @@ main[class*=chatContent]{
   opacity: 1;
   width: 28px;
 }
+
 [class*=recentsIcon] [class*=iconWrapper]:not(selected){
   display: var(--showInboxButton);
 }
@@ -437,38 +438,4 @@ div[class*="folderIconWrapper" i] [class*=expandedFolderIconWrapper]{
     background-color: var(--channelColorSec) !important;
     transition: 0.3s;
   
-}
-
-/* Resizable ChannelList */
-.separator_a06035 {
-  margin: 0;
-  justify-content: center;
-  width: 40px;
-}
-.separator_a06035::before {
-  display: none;
-}
-.separator_a06035 .innerButton_a06035 {
-  margin: 0;
-}
-.textArea_d0696b {
-  width: fit-content;
-  flex-grow: 1.01;
-}
-
-.sidebar_a4d4d9 {
-resize: horizontal;
-width: var(--sidebar-initial-width);
-}
-.sidebar_a4d4d9 .channel_c91bad {
-max-width: unset;
-}
-.bannerImage_fd6364,
-.bannerImg_fd6364 {
-width: 100%;
-}
-
-[class*=userPopoutOuter_] {
-  border-radius: var(--radius-xs);
-  overflow: hidden;
 }
