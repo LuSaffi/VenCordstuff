@@ -15,6 +15,10 @@ powershell curl -O --output-directory %UserProfile%\Downloads\DiscordSetup.exe %
 taskkill /f /t /im Discord.exe
 rmdir %localappdata%\Discord /s /q
 echo Deleted DiscordFolder
+rmdir %localappdata%\Squirrel /s /q
+echo Deleted Squirrel
+rmdir %localappdata%\SquirrelTemp /s /q
+echo Deleted SquirrelTemp
 start %UserProfile%\Downloads\DiscordSetup.exe
 
 cls

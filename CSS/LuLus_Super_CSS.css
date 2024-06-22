@@ -73,6 +73,10 @@
     --radius-context: 20px; /*Context menu popups radius*/
     --pop-up-color: #eeafc07a; /*uncomment for custom Popup color*/ 
     --unity-border-radius: 15px;
+  --font-primary: "Secretv2" !important;
+  --font-display: "Secretv2" !important;
+  --font-headline: "Secretv2" !important;
+  --font-code: "Open Sans" !important;
 }
 
 /* Remove SVG Icon [home] */
@@ -89,16 +93,6 @@
 	background: var(--text-4);
 	mask-image: var(--home-icon-url) center/contain no-repeat !important;
 	mask: var(--home-icon-url) center/contain no-repeat !important;
-}
-
-/* Using an installed font */
-div {
-  font-family: "Open Sans";
-}
-
-[class*="username"], [class*=header], [class*='typingdots' i]{
-    font-family: "Open Sans";
-    font-weight: bolder !important;
 }
 
 li[class*='selected'] [class*="icon"]{
