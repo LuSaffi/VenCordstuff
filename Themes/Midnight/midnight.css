@@ -531,12 +531,12 @@ button.button_dd4f85 /* small buttons */,
 .icon_c07d45 /* streaming icon */,
 #vc-spotify-album-image,
 .background_ae3c77 /* settings nitro tab selected */,
-.hoverButtonGroup__304b2 /* video download button */,
+.hoverButtonGroup_ab8b23 /* video download button */,
 .wrapper_ef319f /* message hover menu */,
 .previewChannelRowContent_c5d9bc {
 	border-radius: var(--roundness-xs);
 }
-.hoverButtonGroup__304b2 /* reposition video download button */ {
+.hoverButtonGroup_ab8b23 /* reposition video download button */ {
 	top: 6px;
 	right: 6px;
 }
