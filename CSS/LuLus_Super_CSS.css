@@ -418,7 +418,7 @@ div[class*="folderIconWrapper" i] [class*=expandedFolderIconWrapper]{
     transition: 0.2s;
 }
 
-.item_fd07a3 {
+.item_c4cd66 {
     width: 4px !important;
     min-height: 30% !important;
     border-radius: .25rem !important;
@@ -427,7 +427,7 @@ div[class*="folderIconWrapper" i] [class*=expandedFolderIconWrapper]{
     transition: width 0.3s ease, background-color 0.3s ease;
 }
 
-.listItem_c96c45:hover .item_fd07a3 {
+.listItem_c96c45:hover .item_c4cd66 {
     height: 50% !important;
     background-color: var(--channelColorSec) !important;
     transition: 0.3s;
