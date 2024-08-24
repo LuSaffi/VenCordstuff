@@ -1,0 +1,39 @@
+@import url("https://raw.githubusercontent.com/Ta-noshii/discord-css/main/snippets/FixVisualRefresh.css");
+
+
+/* add back outer padding */
+.visual-refresh [class^=appAsidePanelWrapper] {
+    padding: 8px !important;
+    padding-left: unset !important;
+}
+
+/* re-add that left side "padding" as margin when the settings menu is open */
+[class^=layer] + [class^=layer] {
+    margin-left: var(--custom-margin-margin-small) !important;
+}
+
+/* adjust serverlist padding */
+.visual-refresh [class*=guilds] {
+    margin-bottom: calc(var(--custom-app-panels-height,5px) - 5px) !important;
+}
+
+/* make ui padding color match theme */
+#app-mount {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
+
+/* round settings corners */
+[class^=layer],
+[class^=standardSidebarView] {
+    border-radius: var(--radius-sm) !important;
+}
+
+/* round sidebar tl corner */
+.visual-refresh [class^=sidebar] {
+    border-radius: var(--radius-sm) 0 0 0 !important;
+}
+
+/* round chat tr br corners */
+[class^=chat] {
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0 !important;
+}

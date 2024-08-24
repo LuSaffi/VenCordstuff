@@ -150,13 +150,13 @@ div[class*=message] [class*=mentioned]:before {
     background-color: var(--mentionBarColor) !important; 
 }
 
-.mirror_eb1d8c {
+.mirror_a5989d {
   transform: unset;
 }
 
 /* PRETTIER SEARCH BAR */
 .search_a46bef:not(.open_a46bef) > .searchBar_a46bef {
-  width: 22px;
+  width: 28px;
   background: transparent;
 }
 
@@ -284,17 +284,17 @@ main[class*=chatContent]{
 
 
 /* Settings Hide Icon */
-.panels_a4d4d9>.container_b2ca13 .flex_bba380>:not(:last-child) {
+.panels_a4d4d9>.container_b2ca13 .flex_dc333f>:not(:last-child) {
   opacity: 0;
   width: 0;
   transition: all 0.3s;
 }
 
-.panels_a4d4d9>.container_b2ca13 .flex_bba380{
+.panels_a4d4d9>.container_b2ca13 .flex_dc333f{
   margin-left: auto;
 }
 
-.panels_a4d4d9>.container_b2ca13:hover .flex_bba380>:not(:last-child) {
+.panels_a4d4d9>.container_b2ca13:hover .flex_dc333f>:not(:last-child) {
   opacity: 1;
   width: 28px;
 }

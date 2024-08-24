@@ -1,0 +1,98 @@
+/* top spacing fix */
+.visual-refresh .container_a4d4d9 {
+    padding-top: unset !important;
+  }
+  
+  /* keep unread button from overlaying on top of the call/game ui */
+  [class^=unreadMentionsIndicatorBottom] {
+      z-index: 2;
+  }
+  
+  /* make profile button use the entire space on the bottom left */
+  [class^=avatarWrapper] {
+      width: -webkit-fill-available;
+  }
+  
+  /* round server banner */
+  [class^=animatedContainer] {
+      border-radius: var(--radius-sm) 0 0 0 !important;
+      width: 100% !important;
+  }
+  
+  /* adjust banner image width to fit */
+  [class^=bannerIm] {
+      width: 100% !important;
+  }
+  
+  /* align personal profile properly */
+  [class^=accountProfilePopoutWrapper] {
+      /* tested on various screen sizes */
+      left: -5px !important;
+  }
+  
+  /* fix dms in dms list width */
+  [class^=channel] {
+      max-width: unset !important;
+  }
+  
+  /* fix spacing of the typing and slowmode indicators below chat bar */
+  [class^=typing] {
+      bottom: -8px !important;
+  }
+  
+  /* remove coloring that would mess up rounding */
+  [class^=layer_] {
+      background: unset !important;
+  }
+  
+  /* remove annoying spacing above chat bar */
+  .theme-dark.theme-dark.custom-theme-background.visual-refresh .form_a7d72e {
+      padding-top: unset !important;
+  }
+  
+  /*
+    make sure call and current active game ui is properly rounded
+    and make server list bottom padding space transparent to match theme
+  */
+  .custom-theme-background .container_adcaac,
+  .theme-dark .panel_bf1a22,
+  .theme-light .panel_bf1a22,
+  .visual-refresh .wrapper_fea3ef {
+      background: transparent none repeat 0 0/auto auto padding-box border-box scroll;
+  }
+  
+  /* revert channel icon size */
+  .visual-refresh .wrapper_c5f96a,
+  .visual-refresh .svg_c5f96a {
+      width: 48px !important;
+      height: 48px !important;
+  }
+  
+  /* ugly border for no reason at send message thing */
+  .visual-refresh [class^=form] {
+      border-top: unset !important;
+  }
+  
+  /* fix spacing of the typing and slowmode indicators below chat bar */
+  .visual-refresh .form_a7d72e {
+      padding-bottom: 16px !important;
+  }
+  
+  /* add proper coloring */
+  .visual-refresh [class^=channelTextArea],
+  .visual-refresh [class^=form] {
+      background-color: var(--bg-overlay-1,var(--background-secondary-alt));
+  }
+  
+  /* fix color scheming with themes */
+  .visual-refresh [class^=privateChannels],
+  .visual-refresh .sidebar_a4d4d9,
+  .visual-refresh .container_ee69e0,
+  .visual-refresh .scroller_c47fa9 {
+      background: var(--bg-overlay-3,var(--bg-base-tertiary, var(--background-secondary)));
+  }
+  
+  /* remove left-side padding so unread badges fit the corner */
+  .visual-refresh [class^=appAsidePanelWrapper] {
+      padding-left: unset !important;
+  }
