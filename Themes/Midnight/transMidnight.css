@@ -82,7 +82,7 @@
 :root.reduce-motion {
 	--list-item-transition: none;
 	--unread-bar-transition: none;
-	--moon-spin-transition: none;
+	--home-spin-transition: none;
 	--icon-spin-transition: none;
 }
 
@@ -652,7 +652,6 @@ button.button_dd4f85 /* small buttons */,
 	height: calc(var(--spacing) + 12px);
 	margin: 0;
 }
-
 /* window controls */
 [class^='winButton'] > svg {
 	display: none;
@@ -660,12 +659,12 @@ button.button_dd4f85 /* small buttons */,
 [class^='winButton'] {
 	background: none !important;
 	top: 0;
-	width: calc(24px);
-	height: calc(var(--spacing) + 12px);
-	margin: 0;
+	width: calc(var(--spacing) + 8px);
+	height: calc(var(--spacing) + 8px);
+	margin: -2px 4px 0px 0px;
 }
 [class^='winButtonClose'] {
-	padding-right: calc(var(--spacing) - 5px);
+	margin: -2px calc(var(--spacing) - 4px) 0px 0px;
 }
 [class^='winButton']::after {
 	content: '';
@@ -689,24 +688,24 @@ button.button_dd4f85 /* small buttons */,
 	background-color: var(--idle-indicator) !important;
 }
 
-/* custom dm button moon icon */
+/* custom dm button home icon */
 .childWrapper_f90abb > svg:not(.favoriteIcon_dcc7a4) {
 	display: var(--discord-icon);
 }
 .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4))::before {
 	content: '';
-	display: var(--moon-icon);
+	display: var(--home-icon);
 	position: absolute;
 	width: 65%;
 	height: 65%;
 	background: var(--text-4);
-	-webkit-mask-image: var(--moon-icon-url);
-	-webkit-mask-size: var(--moon-icon-size);
+	-webkit-mask-image: var(--home-icon-url);
+	-webkit-mask-size: var(--home-icon-size);
 	-webkit-mask-repeat: none;
 }
 .wrapper_f90abb:hover .childWrapper_f90abb::before {
 	/* prettier-ignore */
-	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
+	transition: background-color 0.15s ease-out, transform var(--home-spin-transition);
 	transform: rotate(0deg) scale(1);
 }
 .wrapper_f90abb:hover > .childWrapper_f90abb::before,
@@ -790,6 +789,12 @@ button.button_dd4f85 /* small buttons */,
 .channel_c91bad:hover {
 	margin-left: 18px;
 }
+[class*=guilds]::before{
+	visibility: var(--wrapperShadows);
+  }
+[class*=guilds]::after{
+	visibility: var(--wrapperShadows);
+  }
 
 /* spin hover animations */
 button.button_f67531 /* make user panel buttons round */ {
