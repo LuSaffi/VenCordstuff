@@ -141,7 +141,7 @@ div[class*="userPopoutInner"i] [class*="usertext"i] [class*="usertagusername"i]:
 }
   
 /*Hide Gift Button*/
-button:has([d*="M-7,10 C-8.104999542236328,10 -9"]) {
+button:has([d*="M-7,10 C-8.104999542236328,10 -9"]), div[class^='giftIcon i'] {
   display: var(--showNitroButton);
 }
 
@@ -312,14 +312,14 @@ main[class*=chatContent]{
   display: none;
 }
 
-[class*=wumpus] {
+[class^=wumpus] {
   scale: 1;
   content: url(https://media.discordapp.net/stickers/1217112512374505613.png?size=160&passthrough=true);
 }
-[class*=focusLock]:has([class*=wumpus]) [class*=text-md] {
+[class^=focusLock]:has([class*=wumpus]) [class*=text-md] {
   font-size: 0 !important;
 }
-[class*=focusLock]:has([class*=wumpus]) [class*=text-md]::after {
+[class^=focusLock]:has([class*=wumpus]) [class*=text-md]::after {
   font-size: 16px !important;
   content: "Relax with Viggy for as long as you need."
 }
