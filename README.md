@@ -16,6 +16,6 @@
 14. Fluent Icons: Gibbu
 15. ChatBubbles: Disease
 16. CustomPlaceholders: Ahmad
-
+17. BetterSpotifyPlayer: Panniku
 
 ReadMe is always in progress, if you know ANYONE I'm missing, contact me on discord @lusaffi , I want to give credit where it is deserved!
