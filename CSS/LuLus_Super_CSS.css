@@ -141,7 +141,7 @@ div[class*="userPopoutInner"i] [class*="usertext"i] [class*="usertagusername"i]:
 }
   
 /*Hide Gift Button*/
-button:has([clip-path*='url(#__lottie_element_339)' i]) {
+button:has([d^=' M-7,10 C-8' i]) {
   display: var(--showNitroButton);
 }
 
