@@ -21,14 +21,15 @@
       mask-image: var(--moon-icon-url) center/contain no-repeat !important;
       mask: var(--moon-icon-url) center/contain no-repeat !important;
 }
+
 /* Remove Support Question Mark[?] */
 [href="https://support.discord.com"]{
     display: none;
 }
 
 /*Hide Gift Button*/
-button:has([d*="M-7,10 C-8.104999542236328,10 -9"]) {
-  display: var(--showNitroButton);
+button:has([d^=' M-7,10 C-8' i]) {
+  display: none;
 }
 
 /* Minimalistic Folders (aka Better Folders)*/
@@ -112,10 +113,64 @@ button:has([d*="M-7,10 C-8.104999542236328,10 -9"]) {
   }
 
 /* Remove Inbox */
-[class*=recentsIcon]{
+[class*=recentsIcon] [class*=iconWrapper]:not(selected){
   display: none;
 }
+
 /* Legacy Remove Inbox */
 [d*='M5 2a3 3 0 0']{
+  display: none;
+}
+
+/* FIX MARGINS ON GIFS */
+div[class*="imageContent"] span[class*="altText"]{
+  margin: .25rem 0 -0.15rem;
+  line-height: 17px;
+}
+
+/* Custom Emoji Button */
+[class*=emojiButton] [class*=spriteColored]{background: var(--customEmojiIconURL) center/contain no-repeat;}
+
+[class*=emojiButton] [class*=spriteGreyscale]{mask: var(--customEmojiIconMask) center/contain no-repeat;}
+
+[id*=popout_ i]::after, [class*=menu i]::after {
+  display: var(--displayShiggyIcons);
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-image: var(--shiggyPopoutIcons);
+    background-size: cover;
+}
+/* Alternate Shiggy Link: https://media.discordapp.net/stickers/1039992459209490513.png */
+
+/* Automatically resizing gif picker */
+[class*="expressionPickerPositionLayer_"] [class*="positionContainer_"] {
+    height: calc(100vh - 128px);
+}
+[class*="expressionPickerPositionLayer_"] [class*="drawerSizingWrapper_"] {
+    max-height: 100%;
+    bottom: 0px;
+    height: auto;
+    aspect-ratio: var(--expression-picker-aspect-ratio);
+}
+
+/* Custom Wumpus Relax Window */
+[class^=wumpus] {
+  scale: 1;
+  content: url(https://media.discordapp.net/stickers/1217112512374505613.png?size=160&passthrough=true);
+}
+[class^=focusLock]:has([class*=wumpus]) [class*=text-md] {
+  font-size: 0 !important;
+}
+[class^=focusLock]:has([class*=wumpus]) [class*=text-md]::after {
+  font-size: 16px !important;
+  content: "Relax with Viggy for as long as you need."
+}
+
+/* Hide Channel Invite */
+#channels [class*=actionIcon]:has([d*="M19 14a1 1 0 0 1"]){
   display: none;
 }

@@ -126,9 +126,9 @@
 #vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
   background-color: var(--interactive-active);
   border-color: var(--interactive-active);
-  width: 12px !important;
-  height: 12px !important;
-  margin-top: 3px;
+  width: 0.8rem !important;
+  height: 0.8rem !important;
+  margin-top: -0.4em;
   opacity: 1 !important;
 }
 .vc-spotify-progress-time {
