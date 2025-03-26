@@ -5,6 +5,14 @@
 --moon-icon-url: url('https://cdn.discordapp.com/emojis/1126125369519513731.gif?size=96&quality=lossless');
 --moon-icon-size: auto;
 
+--displayShiggyIcons: inherit;   /* inherit = on || none = off */
+--shiggyPopoutIcons: url(https://cdn.discordapp.com/emojis/1217110775601172591.gif?size=240&quality=lossless);
+--customEmojiIconURL: url(https://cdn.discordapp.com/emojis/1217110775601172591.gif?size=240&quality=lossless);
+--customEmojiIconMask: url(https://cdn.discordapp.com/emojis/1217110775601172591.gif?size=240&quality=lossless);
+  /* CHANGE CUSTOM EMOJI FROM .gif TO .png TO MAKE STATIC ELEMENTS */
+
+  --expression-picker-aspect-ratio: 1.125 / 1; /* Resize Gif Picker */
+
 }
 
 [class*=childWrapper] > svg:not([class*=favoriteIcon]){
@@ -59,21 +67,26 @@ button:has([d^=' M-7,10 C-8' i]) {
         transform: none !important;
   }
 
+
+
 /* Context Menu "Invite to Server" */
 #user-context-invite-to-server {
     display: none;
   }
+
 
 /* REMOVE REPLY USERNAME */
 [class*=repliedMessage] [class*=username]{
     display: none;
   }
 
+
   /* Hide Channel Invite */
 #channels [class*=actionIcon]:has([d*="M19 14a1 1 0 0 1"]){
     display: none;
   }
   
+
 /* Remove VC Icons (chilling status) */
 [class*=iconGroup]:has([class*=hangStatusIcon], svg>path:not([d*='m2.7 22.7 20-20a1'], [d*='M22.7 2.7a1 1']), [class*=gameIcon]) {
     display: none;
@@ -82,10 +95,14 @@ button:has([d^=' M-7,10 C-8' i]) {
     display: none;
   }
 
+
+
 /* Remove video Call Button */
 [role=button]:has([d*='M4 4a3 3 0 0']){
     display: none;
   }
+
+
 
 /* Replace Member List Mobile Icons */
 [mask*="avatar-status-mobile"]{
@@ -98,6 +115,8 @@ button:has([d^=' M-7,10 C-8' i]) {
     transform: translateY(5px) !important;
   }
   
+
+
   /* Replace Profile Popout Mobile Status Icons */
   [class*=userProfile] [mask*="mask-status-online-mobile)"]{
     mask: url(#svg-mask-status-online)!important;
@@ -112,21 +131,22 @@ button:has([d^=' M-7,10 C-8' i]) {
     display: none;
   }
 
+
+
 /* Remove Inbox */
 [class*=recentsIcon] [class*=iconWrapper]:not(selected){
   display: none;
 }
 
-/* Legacy Remove Inbox */
-[d*='M5 2a3 3 0 0']{
-  display: none;
-}
+
 
 /* FIX MARGINS ON GIFS */
 div[class*="imageContent"] span[class*="altText"]{
   margin: .25rem 0 -0.15rem;
   line-height: 17px;
 }
+
+
 
 /* Custom Emoji Button */
 [class*=emojiButton] [class*=spriteColored]{background: var(--customEmojiIconURL) center/contain no-repeat;}
@@ -146,6 +166,8 @@ div[class*="imageContent"] span[class*="altText"]{
 }
 /* Alternate Shiggy Link: https://media.discordapp.net/stickers/1039992459209490513.png */
 
+
+
 /* Automatically resizing gif picker */
 [class*="expressionPickerPositionLayer_"] [class*="positionContainer_"] {
     height: calc(100vh - 128px);
@@ -156,6 +178,8 @@ div[class*="imageContent"] span[class*="altText"]{
     height: auto;
     aspect-ratio: var(--expression-picker-aspect-ratio);
 }
+
+
 
 /* Custom Wumpus Relax Window */
 [class^=wumpus] {
@@ -169,6 +193,8 @@ div[class*="imageContent"] span[class*="altText"]{
   font-size: 16px !important;
   content: "Relax with Viggy for as long as you need."
 }
+
+
 
 /* Hide Channel Invite */
 #channels [class*=actionIcon]:has([d*="M19 14a1 1 0 0 1"]){
