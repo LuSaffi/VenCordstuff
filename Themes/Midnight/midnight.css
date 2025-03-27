@@ -44,7 +44,7 @@ body {
     .container_a592e1 /* server discovery */ {
         background-color: var(--background-base-lower);
         border-radius: var(--radius-lg);
-        border: 1px solid var(--border-subtle);
+        border: 0rem solid var(--border-subtle) !important;
         backdrop-filter: var(--panel-backdrop-filter);
     }
 
