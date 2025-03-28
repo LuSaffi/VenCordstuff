@@ -1,9 +1,3 @@
-:root{
-  --selfMessageColor: #73cff475;
-  --defaultMessageColor: #041c36d2;
-}
-
-
 /* Selfmessages. Heavily based on Discord 11's Message bubbles */
 /* Message Bubbles */
 /* Modified by x3non to work with Vencord */
@@ -38,6 +32,14 @@
     margin-left: auto;
     margin-right: 2vw;
 }
+
+.horizontal_b26b79{
+  margin-left: -3.3rem;
+}
+.vertical_b26b79{
+  margin: 1vw  2.36vw -4vw !important;
+}
+
 
   #app-mount [class^="messageListItem__"][data-is-self="true"][class*=message][class*=selected] [class*=contents],
   #app-mount [class*=message][class*=selected][data-author-self=true] [class*=contents] {
