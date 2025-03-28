@@ -207,6 +207,12 @@ div[class*="imageContent"] span[class*="altText"]{
   background-color: var(--uploadBarProgress) !important;
 }
 
+[class*=recentsIcon] [class*=iconWrapper]:not(selected){
+  display: none;
+}
+
+
+[href='https://support.discord.com']{display:none;} /* Remove Support Question Mark[?] */
 
 [href="/store"],[href="/shop"]{display:none;} /* hide Shop and Nitro tab in DMs */
 

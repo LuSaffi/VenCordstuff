@@ -31,9 +31,7 @@
 }
 
 /* Remove Support Question Mark[?] */
-[href="https://support.discord.com"]{
-    display: none;
-}
+[href='https://support.discord.com']{display:none;}
 
 /*Hide Gift Button*/
 button:has([d^=' M-7,10 C-8' i]) {
