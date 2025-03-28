@@ -111,7 +111,7 @@
   }
   
   #app-mount [class*=contents] [class*=messageContent] {
-    background-color: var(--bg-base-tertiary);
+    background-color: var(--defaultMessageColor);
     padding: 0.3vw 0.5vw 0.3vw 0.5vw;
     margin-left: unset;
     width: fit-content;
