@@ -44,9 +44,10 @@ body {
     .container_a592e1 /* server discovery */ {
         background-color: var(--background-base-lower);
         border-radius: var(--radius-lg);
-        border: 0rem solid var(--border-subtle) !important;
+        border: 0.15rem solid var(--border-subtle) !important;
         backdrop-filter: var(--panel-backdrop-filter);
     }
+
 
     .base_c48ade /* base grid */ {
         display: grid;
@@ -149,6 +150,7 @@ body {
         margin-left: var(--gap);
         overflow: hidden;
         height: auto;
+        min-height: 49.55rem;
     }
     .members_c8ffbb /* member list inner */,
     .member_c8ffbb /* member list item */ {

@@ -35,7 +35,7 @@
 /* */
 #vc-spotify-player {
   height:3rem; 
-  background: var(--bg-4)!important;
+  background: initial !important;
   position: relative;
   transition: height 0.4s ease-out;
   padding: 10px!important;
