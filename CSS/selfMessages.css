@@ -1,8 +1,14 @@
+:root{
+--selfMessageColor: #61b4d4d2;
+--defaultMessageColor: #1996bd81;
+}
+
 
 /* Selfmessages. Heavily based on Discord 11's Message bubbles */
 /* Message Bubbles */
 /* Modified by x3non to work with Vencord */
    /* New Messages bubble */
+   
    #app-mount [class^="messageListItem__"][data-is-self="true"],
    #app-mount [class*=message][data-author-self=true] {
     margin-left: auto;
@@ -58,7 +64,7 @@
 #app-mount [class^="messageListItem__"][data-is-self="true"] [class*=contents] [class*=messageContent],
 #app-mount [class*=message] [data-author-self=true] [class*=content] [class*=messageContent]{
     margin-left: auto;
-    background-color: #1996bd81 !important;
+    background-color: var(--selfMessageColor) !important;
     padding: 0.3vw 0.5vw 0.3vw 0.5vw;
 }
 
@@ -129,7 +135,7 @@
 
   #app-mount .mentioned__5126c:hover .contents_c19a55  .messageContent_c19a55,
   #app-mount .mentioned__5126c.selected__5126c .contents_c19a55 .messageContent_c19a55 {
-    background-color: var(--mention-hover);
+    background-color: var(--defaultMessageColor);
   }
 
   #app-mount .mentioned__5126c .contents_c19a55 .messageContent_c19a55::before {
