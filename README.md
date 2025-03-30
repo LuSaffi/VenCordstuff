@@ -18,5 +18,6 @@
 16. CustomPlaceholders: Ahmad
 17. BetterSpotifyPlayer: Panniku
 18. Midnight: Refact0r
+19. OLDUI Window Cutoff Fix: lusaffi, TRKako, scattagain
 
 ReadMe is always in progress, if you know ANYONE I'm missing, contact me on discord @lusaffi , I want to give credit where it is deserved!
