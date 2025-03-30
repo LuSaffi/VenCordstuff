@@ -1,12 +1,12 @@
 /* Fix Chat Title/Topics */
 div[class*='topic__'],
 div[class*='nicknames__'],
-div[class*='subtitleCotainer_'] div[class*='children__']{
+div[class*='subtitleContainer_'] div[class*='children__']{
   width: 0;
 }
 
 /* fix forum list mode */
-div[class*='list_f369db'][class*='auto__99f8c']{
+div[class*='list_'][class*='auto_']{
   position: absolute;
   height: 100%;
 }
