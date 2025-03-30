@@ -1,7 +1,19 @@
+/**
+ * @name [OLD UI ONLY] Member List fix
+ * @description Fix the member list disappearing from SV channels, DM's, Group chats and Threads
+ * @author @lusaffi, @TRKako, @scattagain
+ * @version 69.420
+ * @invite 
+ * @website 
+ * @source 
+ * @authorId 797721161504653332, 700076432076046396, 1098234477626544180
+ * @authorLink https://discord.com/users/797721161504653332, https://discord.com/users/700076432076046396, https://discord.com/users/1098234477626544180
+*/
+
 /* Fix Chat Title/Topics */
 div[class*='topic__'],
 div[class*='nicknames__'],
-div[class*='subtitleCotainer_'] div[class*='children__']{
+div[class*='subtitleContainer_'] div[class*='children__']{
   width: 0;
 }
 
