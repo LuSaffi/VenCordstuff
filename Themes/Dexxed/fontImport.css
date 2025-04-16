@@ -1,0 +1,9 @@
+  /* latin */
+  @font-face {
+    font-family: 'Pokemon B/W Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    src: url('https://github.com/LuSaffi/VenCordstuff/raw/refs/heads/main/Fonts/pokemon-b-w.otf.woff2') format('woff2');
+    unicode-range: U+2100-U+214F, U+2150-U+218F, U+2190-U+21FF;
+  }
