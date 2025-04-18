@@ -1,3 +1,8 @@
+:root{
+  --selfMessageColor: #73cff475;
+  --defaultMessageColor: #041c36d2;
+}
+
 /* Selfmessages. Heavily based on Discord 11's Message bubbles */
 /* Message Bubbles */
 /* Modified by x3non to work with Vencord */
